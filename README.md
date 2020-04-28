@@ -1,0 +1,1 @@
+Feito principalmente com base no site: https://www.liquid-technologies.com/online-xsd-to-xml-converter
