@@ -3,24 +3,35 @@
   	<xs:element name="Holding">
        <xs:complexType>
             <xs:sequence>
+              	<xs:element name="codigoHolding" type="xs:ID"></xs:element>
     			<xs:element name="nome" type="xs:string"></xs:element>
-                <xs:element name="empresas" type="Empresa" minOccurs="0" maxOccurs="unbounded"></xs:element>
+                <xs:element name="empresa" type="Empresa" minOccurs="0" maxOccurs="unbounded"></xs:element>
             </xs:sequence>
          </xs:complexType>
   	</xs:element>
-    <xs:complexType name="Loja">
-   		<xs:sequence>
-        	<xs:element name="nome" type="xs:string"></xs:element>
-        	<xs:element name="dataAbertura" type="xs:dateTime"></xs:element>
-       		<xs:element name="nroFuncionario" type="xs:integer"></xs:element>
-    	</xs:sequence>
-    </xs:complexType>
   	<xs:complexType name="Empresa">
       <xs:sequence>
+        <xs:element name="codigoEmpresa" type="xs:ID"></xs:element>
         <xs:element name="razaoSocial" type="xs:string"></xs:element>
         <xs:element name="fantasia" type="xs:string"></xs:element>
         <xs:element name="logradouro" type="xs:string"></xs:element>
-        <xs:element name="lojas" type="Loja" minOccurs="0" maxOccurs="unbounded"></xs:element>
+        <xs:element name="loja" type="Loja" minOccurs="0" maxOccurs="unbounded"></xs:element>
       </xs:sequence>
   	</xs:complexType>
-</xs:schema> 
+    <xs:complexType name="Loja">
+   		<xs:sequence>
+          	<xs:element name="codigoLoja" type="xs:ID"></xs:element>
+        	<xs:element name="nome" type="xs:string"></xs:element>
+        	<xs:element name="dataAbertura" type="xs:dateTime"></xs:element>
+       		<xs:element name="nroFuncionario" type="xs:integer"></xs:element>
+            <xs:element name="departamento" type="Departamento" minOccurs="0" maxOccurs="unbounded"></xs:element>
+    	</xs:sequence>
+    </xs:complexType>
+  	<xs:complexType name="Departamento">
+   		<xs:sequence>
+          	<xs:element name="codigoDepartamento" type="xs:ID"></xs:element>
+        	<xs:element name="nome" type="xs:string"></xs:element>
+        	<xs:element name="loja" type="Loja" minOccurs="0" maxOccurs="unbounded"></xs:element>
+    	</xs:sequence>
+    </xs:complexType>
+</xs:schema>
