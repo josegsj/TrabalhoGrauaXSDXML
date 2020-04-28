@@ -54,6 +54,34 @@
         	<xs:element name="nome" type="xs:string"></xs:element>
           	<xs:element name="estoqueAtual" type="xs:integer"></xs:element>
 			<xs:element name="estoqueMinimo" type="xs:integer"></xs:element>
+          	<xs:element name="grade" type="Grade"></xs:element>
     	</xs:sequence>
     </xs:complexType>
+    <xs:complexType name="Grade">
+      <xs:sequence>
+        <xs:element name="codigoGrade" type="xs:ID"></xs:element>
+        <xs:element name="nome" type="xs:string"></xs:element>
+        <xs:element name="gradeItem" type="GradeItem" minOccurs="1" maxOccurs="unbounded"></xs:element>
+   	  </xs:sequence>
+    </xs:complexType>
+  	<xs:complexType name="GradeItem">
+      <xs:sequence>
+        <xs:element name="codigoGradeItem" type="xs:ID"></xs:element>
+        <xs:element name="nome" type="xs:string"></xs:element>
+        <xs:element name="cor" type="Cor" minOccurs="1" maxOccurs="unbounded"></xs:element>
+        <xs:element name="tamanho" type="Tamanho" minOccurs="1" maxOccurs="unbounded"></xs:element>
+  	  </xs:sequence>
+    </xs:complexType>
+  	<xs:complexType name="Cor">
+      <xs:sequence>
+        <xs:element name="codigoCor" type="xs:ID"></xs:element>
+        <xs:element name="nome" type="xs:string"></xs:element>
+      </xs:sequence>
+  	</xs:complexType>
+  	<xs:complexType name="Tamanho">
+      <xs:sequence>
+        <xs:element name="codigoTamanho" type="xs:ID"></xs:element>
+        <xs:element name="nome" type="xs:string"></xs:element>
+      </xs:sequence>
+  	</xs:complexType>
 </xs:schema> 

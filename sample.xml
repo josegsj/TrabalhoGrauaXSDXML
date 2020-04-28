@@ -11,8 +11,8 @@
     <loja>
       <codigoLoja>AAAAC</codigoLoja>
       <nome>string</nome>
-      <dataAbertura>1982-09-16T05:11:35.30</dataAbertura>
-      <nroFuncionario>-234</nroFuncionario>
+      <dataAbertura>1999-10-08T06:59:50.65</dataAbertura>
+      <nroFuncionario>4773</nroFuncionario>
       <departamento>
         <codigoDepartamento>AAAAD</codigoDepartamento>
         <nome>string</nome>
@@ -25,35 +25,31 @@
             <produto>
               <codigoProduto>AAAAG</codigoProduto>
               <nome>string</nome>
-              <estoqueAtual>4610</estoqueAtual>
-              <estoqueMinimo>-277</estoqueMinimo>
+              <estoqueAtual>-1591</estoqueAtual>
+              <estoqueMinimo>-71</estoqueMinimo>
+              <grade>
+                <codigoGrade>AAAAH</codigoGrade>
+                <nome>string</nome>
+                <gradeItem>
+                  <codigoGradeItem>AAAAI</codigoGradeItem>
+                  <nome>string</nome>
+                  <cor>
+                    <codigoCor>AAAAJ</codigoCor>
+                    <nome>string</nome>
+                  </cor>
+                  <tamanho>
+                    <codigoTamanho>AAABA</codigoTamanho>
+                    <nome>string</nome>
+                  </tamanho>
+                </gradeItem>
+              </grade>
             </produto>
           </categoria>
         </secao>
       </departamento>
-    </loja>
-    <loja>
-      <codigoLoja>AAAAH</codigoLoja>
-      <nome>string</nome>
-      <dataAbertura>2008-03-16T01:37:05.94</dataAbertura>
-      <nroFuncionario>4733</nroFuncionario>
       <departamento>
-        <codigoDepartamento>AAAAI</codigoDepartamento>
+        <codigoDepartamento>AAABB</codigoDepartamento>
         <nome>string</nome>
-        <secao>
-          <codigoSecao>AAAAJ</codigoSecao>
-          <nome>string</nome>
-          <categoria>
-            <codigoCategoria>AAABA</codigoCategoria>
-            <nome>string</nome>
-            <produto>
-              <codigoProduto>AAABB</codigoProduto>
-              <nome>string</nome>
-              <estoqueAtual>-4564</estoqueAtual>
-              <estoqueMinimo>1774</estoqueMinimo>
-            </produto>
-          </categoria>
-        </secao>
         <secao>
           <codigoSecao>AAABC</codigoSecao>
           <nome>string</nome>
@@ -63,71 +59,65 @@
             <produto>
               <codigoProduto>AAABE</codigoProduto>
               <nome>string</nome>
-              <estoqueAtual>-4435</estoqueAtual>
-              <estoqueMinimo>-2142</estoqueMinimo>
+              <estoqueAtual>-1619</estoqueAtual>
+              <estoqueMinimo>-922</estoqueMinimo>
+              <grade>
+                <codigoGrade>AAABF</codigoGrade>
+                <nome>string</nome>
+                <gradeItem>
+                  <codigoGradeItem>AAABG</codigoGradeItem>
+                  <nome>string</nome>
+                  <cor>
+                    <codigoCor>AAABH</codigoCor>
+                    <nome>string</nome>
+                  </cor>
+                  <tamanho>
+                    <codigoTamanho>AAABI</codigoTamanho>
+                    <nome>string</nome>
+                  </tamanho>
+                </gradeItem>
+              </grade>
             </produto>
           </categoria>
         </secao>
       </departamento>
       <departamento>
-        <codigoDepartamento>AAABF</codigoDepartamento>
+        <codigoDepartamento>AAABJ</codigoDepartamento>
         <nome>string</nome>
         <secao>
-          <codigoSecao>AAABG</codigoSecao>
+          <codigoSecao>AAACA</codigoSecao>
           <nome>string</nome>
           <categoria>
-            <codigoCategoria>AAABH</codigoCategoria>
+            <codigoCategoria>AAACB</codigoCategoria>
             <nome>string</nome>
             <produto>
-              <codigoProduto>AAABI</codigoProduto>
+              <codigoProduto>AAACC</codigoProduto>
               <nome>string</nome>
-              <estoqueAtual>-4512</estoqueAtual>
-              <estoqueMinimo>-1574</estoqueMinimo>
+              <estoqueAtual>-1302</estoqueAtual>
+              <estoqueMinimo>-584</estoqueMinimo>
+              <grade>
+                <codigoGrade>AAACD</codigoGrade>
+                <nome>string</nome>
+                <gradeItem>
+                  <codigoGradeItem>AAACE</codigoGradeItem>
+                  <nome>string</nome>
+                  <cor>
+                    <codigoCor>AAACF</codigoCor>
+                    <nome>string</nome>
+                  </cor>
+                  <tamanho>
+                    <codigoTamanho>AAACG</codigoTamanho>
+                    <nome>string</nome>
+                  </tamanho>
+                </gradeItem>
+              </grade>
             </produto>
           </categoria>
         </secao>
-        <secao>
-          <codigoSecao>AAABJ</codigoSecao>
-          <nome>string</nome>
-          <categoria>
-            <codigoCategoria>AAACA</codigoCategoria>
-            <nome>string</nome>
-            <produto>
-              <codigoProduto>AAACB</codigoProduto>
-              <nome>string</nome>
-              <estoqueAtual>-4863</estoqueAtual>
-              <estoqueMinimo>4354</estoqueMinimo>
-            </produto>
-          </categoria>
-        </secao>
-        <secao>
-          <codigoSecao>AAACC</codigoSecao>
-          <nome>string</nome>
-          <categoria>
-            <codigoCategoria>AAACD</codigoCategoria>
-            <nome>string</nome>
-            <produto>
-              <codigoProduto>AAACE</codigoProduto>
-              <nome>string</nome>
-              <estoqueAtual>4090</estoqueAtual>
-              <estoqueMinimo>-3324</estoqueMinimo>
-            </produto>
-          </categoria>
-        </secao>
-        <secao>
-          <codigoSecao>AAACF</codigoSecao>
-          <nome>string</nome>
-          <categoria>
-            <codigoCategoria>AAACG</codigoCategoria>
-            <nome>string</nome>
-            <produto>
-              <codigoProduto>AAACH</codigoProduto>
-              <nome>string</nome>
-              <estoqueAtual>1925</estoqueAtual>
-              <estoqueMinimo>-1549</estoqueMinimo>
-            </produto>
-          </categoria>
-        </secao>
+      </departamento>
+      <departamento>
+        <codigoDepartamento>AAACH</codigoDepartamento>
+        <nome>string</nome>
         <secao>
           <codigoSecao>AAACI</codigoSecao>
           <nome>string</nome>
@@ -137,117 +127,111 @@
             <produto>
               <codigoProduto>AAADA</codigoProduto>
               <nome>string</nome>
-              <estoqueAtual>-4664</estoqueAtual>
-              <estoqueMinimo>-2909</estoqueMinimo>
+              <estoqueAtual>-773</estoqueAtual>
+              <estoqueMinimo>-3136</estoqueMinimo>
+              <grade>
+                <codigoGrade>AAADB</codigoGrade>
+                <nome>string</nome>
+                <gradeItem>
+                  <codigoGradeItem>AAADC</codigoGradeItem>
+                  <nome>string</nome>
+                  <cor>
+                    <codigoCor>AAADD</codigoCor>
+                    <nome>string</nome>
+                  </cor>
+                  <tamanho>
+                    <codigoTamanho>AAADE</codigoTamanho>
+                    <nome>string</nome>
+                  </tamanho>
+                </gradeItem>
+              </grade>
+            </produto>
+          </categoria>
+        </secao>
+      </departamento>
+    </loja>
+    <loja>
+      <codigoLoja>AAADF</codigoLoja>
+      <nome>string</nome>
+      <dataAbertura>2013-01-26T11:25:33.23</dataAbertura>
+      <nroFuncionario>-4736</nroFuncionario>
+      <departamento>
+        <codigoDepartamento>AAADG</codigoDepartamento>
+        <nome>string</nome>
+        <secao>
+          <codigoSecao>AAADH</codigoSecao>
+          <nome>string</nome>
+          <categoria>
+            <codigoCategoria>AAADI</codigoCategoria>
+            <nome>string</nome>
+            <produto>
+              <codigoProduto>AAADJ</codigoProduto>
+              <nome>string</nome>
+              <estoqueAtual>-750</estoqueAtual>
+              <estoqueMinimo>1613</estoqueMinimo>
+              <grade>
+                <codigoGrade>AAAEA</codigoGrade>
+                <nome>string</nome>
+                <gradeItem>
+                  <codigoGradeItem>AAAEB</codigoGradeItem>
+                  <nome>string</nome>
+                  <cor>
+                    <codigoCor>AAAEC</codigoCor>
+                    <nome>string</nome>
+                  </cor>
+                  <tamanho>
+                    <codigoTamanho>AAAED</codigoTamanho>
+                    <nome>string</nome>
+                  </tamanho>
+                </gradeItem>
+              </grade>
             </produto>
           </categoria>
         </secao>
       </departamento>
       <departamento>
-        <codigoDepartamento>AAADB</codigoDepartamento>
+        <codigoDepartamento>AAAEE</codigoDepartamento>
         <nome>string</nome>
         <secao>
-          <codigoSecao>AAADC</codigoSecao>
+          <codigoSecao>AAAEF</codigoSecao>
           <nome>string</nome>
           <categoria>
-            <codigoCategoria>AAADD</codigoCategoria>
+            <codigoCategoria>AAAEG</codigoCategoria>
             <nome>string</nome>
             <produto>
-              <codigoProduto>AAADE</codigoProduto>
+              <codigoProduto>AAAEH</codigoProduto>
               <nome>string</nome>
-              <estoqueAtual>-1186</estoqueAtual>
-              <estoqueMinimo>3126</estoqueMinimo>
-            </produto>
-          </categoria>
-        </secao>
-        <secao>
-          <codigoSecao>AAADF</codigoSecao>
-          <nome>string</nome>
-          <categoria>
-            <codigoCategoria>AAADG</codigoCategoria>
-            <nome>string</nome>
-            <produto>
-              <codigoProduto>AAADH</codigoProduto>
-              <nome>string</nome>
-              <estoqueAtual>4038</estoqueAtual>
-              <estoqueMinimo>3318</estoqueMinimo>
-            </produto>
-          </categoria>
-        </secao>
-        <secao>
-          <codigoSecao>AAADI</codigoSecao>
-          <nome>string</nome>
-          <categoria>
-            <codigoCategoria>AAADJ</codigoCategoria>
-            <nome>string</nome>
-            <produto>
-              <codigoProduto>AAAEA</codigoProduto>
-              <nome>string</nome>
-              <estoqueAtual>4096</estoqueAtual>
-              <estoqueMinimo>1961</estoqueMinimo>
-            </produto>
-          </categoria>
-        </secao>
-        <secao>
-          <codigoSecao>AAAEB</codigoSecao>
-          <nome>string</nome>
-          <categoria>
-            <codigoCategoria>AAAEC</codigoCategoria>
-            <nome>string</nome>
-            <produto>
-              <codigoProduto>AAAED</codigoProduto>
-              <nome>string</nome>
-              <estoqueAtual>1705</estoqueAtual>
-              <estoqueMinimo>2972</estoqueMinimo>
-            </produto>
-          </categoria>
-        </secao>
-        <secao>
-          <codigoSecao>AAAEE</codigoSecao>
-          <nome>string</nome>
-          <categoria>
-            <codigoCategoria>AAAEF</codigoCategoria>
-            <nome>string</nome>
-            <produto>
-              <codigoProduto>AAAEG</codigoProduto>
-              <nome>string</nome>
-              <estoqueAtual>4627</estoqueAtual>
-              <estoqueMinimo>-3168</estoqueMinimo>
+              <estoqueAtual>-3817</estoqueAtual>
+              <estoqueMinimo>-2265</estoqueMinimo>
+              <grade>
+                <codigoGrade>AAAEI</codigoGrade>
+                <nome>string</nome>
+                <gradeItem>
+                  <codigoGradeItem>AAAEJ</codigoGradeItem>
+                  <nome>string</nome>
+                  <cor>
+                    <codigoCor>AAAFA</codigoCor>
+                    <nome>string</nome>
+                  </cor>
+                  <tamanho>
+                    <codigoTamanho>AAAFB</codigoTamanho>
+                    <nome>string</nome>
+                  </tamanho>
+                </gradeItem>
+              </grade>
             </produto>
           </categoria>
         </secao>
       </departamento>
+    </loja>
+    <loja>
+      <codigoLoja>AAAFC</codigoLoja>
+      <nome>string</nome>
+      <dataAbertura>1994-08-13T21:07:04.71</dataAbertura>
+      <nroFuncionario>-2069</nroFuncionario>
       <departamento>
-        <codigoDepartamento>AAAEH</codigoDepartamento>
+        <codigoDepartamento>AAAFD</codigoDepartamento>
         <nome>string</nome>
-        <secao>
-          <codigoSecao>AAAEI</codigoSecao>
-          <nome>string</nome>
-          <categoria>
-            <codigoCategoria>AAAEJ</codigoCategoria>
-            <nome>string</nome>
-            <produto>
-              <codigoProduto>AAAFA</codigoProduto>
-              <nome>string</nome>
-              <estoqueAtual>-487</estoqueAtual>
-              <estoqueMinimo>3613</estoqueMinimo>
-            </produto>
-          </categoria>
-        </secao>
-        <secao>
-          <codigoSecao>AAAFB</codigoSecao>
-          <nome>string</nome>
-          <categoria>
-            <codigoCategoria>AAAFC</codigoCategoria>
-            <nome>string</nome>
-            <produto>
-              <codigoProduto>AAAFD</codigoProduto>
-              <nome>string</nome>
-              <estoqueAtual>-2286</estoqueAtual>
-              <estoqueMinimo>-3444</estoqueMinimo>
-            </produto>
-          </categoria>
-        </secao>
         <secao>
           <codigoSecao>AAAFE</codigoSecao>
           <nome>string</nome>
@@ -257,108 +241,96 @@
             <produto>
               <codigoProduto>AAAFG</codigoProduto>
               <nome>string</nome>
-              <estoqueAtual>-2341</estoqueAtual>
-              <estoqueMinimo>3350</estoqueMinimo>
-            </produto>
-          </categoria>
-        </secao>
-      </departamento>
-    </loja>
-  </empresa>
-  <empresa>
-    <codigoEmpresa>AAAFH</codigoEmpresa>
-    <razaoSocial>string</razaoSocial>
-    <fantasia>string</fantasia>
-    <logradouro>string</logradouro>
-    <loja>
-      <codigoLoja>AAAFI</codigoLoja>
-      <nome>string</nome>
-      <dataAbertura>1998-05-05T20:38:11.07</dataAbertura>
-      <nroFuncionario>-1494</nroFuncionario>
-      <departamento>
-        <codigoDepartamento>AAAFJ</codigoDepartamento>
-        <nome>string</nome>
-        <secao>
-          <codigoSecao>AAAGA</codigoSecao>
-          <nome>string</nome>
-          <categoria>
-            <codigoCategoria>AAAGB</codigoCategoria>
-            <nome>string</nome>
-            <produto>
-              <codigoProduto>AAAGC</codigoProduto>
-              <nome>string</nome>
-              <estoqueAtual>-3300</estoqueAtual>
-              <estoqueMinimo>-445</estoqueMinimo>
-            </produto>
-          </categoria>
-        </secao>
-        <secao>
-          <codigoSecao>AAAGD</codigoSecao>
-          <nome>string</nome>
-          <categoria>
-            <codigoCategoria>AAAGE</codigoCategoria>
-            <nome>string</nome>
-            <produto>
-              <codigoProduto>AAAGF</codigoProduto>
-              <nome>string</nome>
-              <estoqueAtual>956</estoqueAtual>
-              <estoqueMinimo>-426</estoqueMinimo>
-            </produto>
-          </categoria>
-        </secao>
-        <secao>
-          <codigoSecao>AAAGG</codigoSecao>
-          <nome>string</nome>
-          <categoria>
-            <codigoCategoria>AAAGH</codigoCategoria>
-            <nome>string</nome>
-            <produto>
-              <codigoProduto>AAAGI</codigoProduto>
-              <nome>string</nome>
-              <estoqueAtual>2689</estoqueAtual>
-              <estoqueMinimo>1431</estoqueMinimo>
-            </produto>
-          </categoria>
-        </secao>
-        <secao>
-          <codigoSecao>AAAGJ</codigoSecao>
-          <nome>string</nome>
-          <categoria>
-            <codigoCategoria>AAAHA</codigoCategoria>
-            <nome>string</nome>
-            <produto>
-              <codigoProduto>AAAHB</codigoProduto>
-              <nome>string</nome>
-              <estoqueAtual>-1881</estoqueAtual>
-              <estoqueMinimo>779</estoqueMinimo>
+              <estoqueAtual>-1047</estoqueAtual>
+              <estoqueMinimo>-1927</estoqueMinimo>
+              <grade>
+                <codigoGrade>AAAFH</codigoGrade>
+                <nome>string</nome>
+                <gradeItem>
+                  <codigoGradeItem>AAAFI</codigoGradeItem>
+                  <nome>string</nome>
+                  <cor>
+                    <codigoCor>AAAFJ</codigoCor>
+                    <nome>string</nome>
+                  </cor>
+                  <tamanho>
+                    <codigoTamanho>AAAGA</codigoTamanho>
+                    <nome>string</nome>
+                  </tamanho>
+                </gradeItem>
+              </grade>
             </produto>
           </categoria>
         </secao>
       </departamento>
       <departamento>
-        <codigoDepartamento>AAAHC</codigoDepartamento>
+        <codigoDepartamento>AAAGB</codigoDepartamento>
         <nome>string</nome>
         <secao>
-          <codigoSecao>AAAHD</codigoSecao>
+          <codigoSecao>AAAGC</codigoSecao>
           <nome>string</nome>
           <categoria>
-            <codigoCategoria>AAAHE</codigoCategoria>
+            <codigoCategoria>AAAGD</codigoCategoria>
             <nome>string</nome>
             <produto>
-              <codigoProduto>AAAHF</codigoProduto>
+              <codigoProduto>AAAGE</codigoProduto>
               <nome>string</nome>
-              <estoqueAtual>627</estoqueAtual>
-              <estoqueMinimo>3422</estoqueMinimo>
+              <estoqueAtual>-2735</estoqueAtual>
+              <estoqueMinimo>548</estoqueMinimo>
+              <grade>
+                <codigoGrade>AAAGF</codigoGrade>
+                <nome>string</nome>
+                <gradeItem>
+                  <codigoGradeItem>AAAGG</codigoGradeItem>
+                  <nome>string</nome>
+                  <cor>
+                    <codigoCor>AAAGH</codigoCor>
+                    <nome>string</nome>
+                  </cor>
+                  <tamanho>
+                    <codigoTamanho>AAAGI</codigoTamanho>
+                    <nome>string</nome>
+                  </tamanho>
+                </gradeItem>
+              </grade>
             </produto>
           </categoria>
         </secao>
       </departamento>
-    </loja>
-    <loja>
-      <codigoLoja>AAAHG</codigoLoja>
-      <nome>string</nome>
-      <dataAbertura>2006-02-04T21:24:08.54</dataAbertura>
-      <nroFuncionario>1792</nroFuncionario>
+      <departamento>
+        <codigoDepartamento>AAAGJ</codigoDepartamento>
+        <nome>string</nome>
+        <secao>
+          <codigoSecao>AAAHA</codigoSecao>
+          <nome>string</nome>
+          <categoria>
+            <codigoCategoria>AAAHB</codigoCategoria>
+            <nome>string</nome>
+            <produto>
+              <codigoProduto>AAAHC</codigoProduto>
+              <nome>string</nome>
+              <estoqueAtual>-4609</estoqueAtual>
+              <estoqueMinimo>538</estoqueMinimo>
+              <grade>
+                <codigoGrade>AAAHD</codigoGrade>
+                <nome>string</nome>
+                <gradeItem>
+                  <codigoGradeItem>AAAHE</codigoGradeItem>
+                  <nome>string</nome>
+                  <cor>
+                    <codigoCor>AAAHF</codigoCor>
+                    <nome>string</nome>
+                  </cor>
+                  <tamanho>
+                    <codigoTamanho>AAAHG</codigoTamanho>
+                    <nome>string</nome>
+                  </tamanho>
+                </gradeItem>
+              </grade>
+            </produto>
+          </categoria>
+        </secao>
+      </departamento>
       <departamento>
         <codigoDepartamento>AAAHH</codigoDepartamento>
         <nome>string</nome>
@@ -371,43 +343,43 @@
             <produto>
               <codigoProduto>AAAIA</codigoProduto>
               <nome>string</nome>
-              <estoqueAtual>687</estoqueAtual>
-              <estoqueMinimo>2946</estoqueMinimo>
-            </produto>
-          </categoria>
-        </secao>
-        <secao>
-          <codigoSecao>AAAIB</codigoSecao>
-          <nome>string</nome>
-          <categoria>
-            <codigoCategoria>AAAIC</codigoCategoria>
-            <nome>string</nome>
-            <produto>
-              <codigoProduto>AAAID</codigoProduto>
-              <nome>string</nome>
-              <estoqueAtual>-4533</estoqueAtual>
-              <estoqueMinimo>2286</estoqueMinimo>
+              <estoqueAtual>259</estoqueAtual>
+              <estoqueMinimo>-2130</estoqueMinimo>
+              <grade>
+                <codigoGrade>AAAIB</codigoGrade>
+                <nome>string</nome>
+                <gradeItem>
+                  <codigoGradeItem>AAAIC</codigoGradeItem>
+                  <nome>string</nome>
+                  <cor>
+                    <codigoCor>AAAID</codigoCor>
+                    <nome>string</nome>
+                  </cor>
+                  <tamanho>
+                    <codigoTamanho>AAAIE</codigoTamanho>
+                    <nome>string</nome>
+                  </tamanho>
+                </gradeItem>
+              </grade>
             </produto>
           </categoria>
         </secao>
       </departamento>
+    </loja>
+  </empresa>
+  <empresa>
+    <codigoEmpresa>AAAIF</codigoEmpresa>
+    <razaoSocial>string</razaoSocial>
+    <fantasia>string</fantasia>
+    <logradouro>string</logradouro>
+    <loja>
+      <codigoLoja>AAAIG</codigoLoja>
+      <nome>string</nome>
+      <dataAbertura>1992-03-06T19:02:01.43</dataAbertura>
+      <nroFuncionario>2769</nroFuncionario>
       <departamento>
-        <codigoDepartamento>AAAIE</codigoDepartamento>
+        <codigoDepartamento>AAAIH</codigoDepartamento>
         <nome>string</nome>
-        <secao>
-          <codigoSecao>AAAIF</codigoSecao>
-          <nome>string</nome>
-          <categoria>
-            <codigoCategoria>AAAIG</codigoCategoria>
-            <nome>string</nome>
-            <produto>
-              <codigoProduto>AAAIH</codigoProduto>
-              <nome>string</nome>
-              <estoqueAtual>723</estoqueAtual>
-              <estoqueMinimo>2429</estoqueMinimo>
-            </produto>
-          </categoria>
-        </secao>
         <secao>
           <codigoSecao>AAAII</codigoSecao>
           <nome>string</nome>
@@ -417,233 +389,219 @@
             <produto>
               <codigoProduto>AAAJA</codigoProduto>
               <nome>string</nome>
-              <estoqueAtual>840</estoqueAtual>
-              <estoqueMinimo>-2959</estoqueMinimo>
-            </produto>
-          </categoria>
-        </secao>
-      </departamento>
-      <departamento>
-        <codigoDepartamento>AAAJB</codigoDepartamento>
-        <nome>string</nome>
-        <secao>
-          <codigoSecao>AAAJC</codigoSecao>
-          <nome>string</nome>
-          <categoria>
-            <codigoCategoria>AAAJD</codigoCategoria>
-            <nome>string</nome>
-            <produto>
-              <codigoProduto>AAAJE</codigoProduto>
-              <nome>string</nome>
-              <estoqueAtual>-3920</estoqueAtual>
-              <estoqueMinimo>-1962</estoqueMinimo>
-            </produto>
-          </categoria>
-        </secao>
-        <secao>
-          <codigoSecao>AAAJF</codigoSecao>
-          <nome>string</nome>
-          <categoria>
-            <codigoCategoria>AAAJG</codigoCategoria>
-            <nome>string</nome>
-            <produto>
-              <codigoProduto>AAAJH</codigoProduto>
-              <nome>string</nome>
-              <estoqueAtual>-3339</estoqueAtual>
-              <estoqueMinimo>-4803</estoqueMinimo>
-            </produto>
-          </categoria>
-        </secao>
-      </departamento>
-      <departamento>
-        <codigoDepartamento>AAAJI</codigoDepartamento>
-        <nome>string</nome>
-        <secao>
-          <codigoSecao>AAAJJ</codigoSecao>
-          <nome>string</nome>
-          <categoria>
-            <codigoCategoria>AABAA</codigoCategoria>
-            <nome>string</nome>
-            <produto>
-              <codigoProduto>AABAB</codigoProduto>
-              <nome>string</nome>
-              <estoqueAtual>-899</estoqueAtual>
-              <estoqueMinimo>-2198</estoqueMinimo>
-            </produto>
-          </categoria>
-        </secao>
-        <secao>
-          <codigoSecao>AABAC</codigoSecao>
-          <nome>string</nome>
-          <categoria>
-            <codigoCategoria>AABAD</codigoCategoria>
-            <nome>string</nome>
-            <produto>
-              <codigoProduto>AABAE</codigoProduto>
-              <nome>string</nome>
-              <estoqueAtual>-4276</estoqueAtual>
-              <estoqueMinimo>2345</estoqueMinimo>
+              <estoqueAtual>-2306</estoqueAtual>
+              <estoqueMinimo>2904</estoqueMinimo>
+              <grade>
+                <codigoGrade>AAAJB</codigoGrade>
+                <nome>string</nome>
+                <gradeItem>
+                  <codigoGradeItem>AAAJC</codigoGradeItem>
+                  <nome>string</nome>
+                  <cor>
+                    <codigoCor>AAAJD</codigoCor>
+                    <nome>string</nome>
+                  </cor>
+                  <tamanho>
+                    <codigoTamanho>AAAJE</codigoTamanho>
+                    <nome>string</nome>
+                  </tamanho>
+                </gradeItem>
+              </grade>
             </produto>
           </categoria>
         </secao>
       </departamento>
     </loja>
     <loja>
-      <codigoLoja>AABAF</codigoLoja>
+      <codigoLoja>AAAJF</codigoLoja>
       <nome>string</nome>
-      <dataAbertura>1992-12-10T12:56:58.63</dataAbertura>
-      <nroFuncionario>-1297</nroFuncionario>
+      <dataAbertura>1974-03-06T00:28:57.44</dataAbertura>
+      <nroFuncionario>2249</nroFuncionario>
       <departamento>
-        <codigoDepartamento>AABAG</codigoDepartamento>
+        <codigoDepartamento>AAAJG</codigoDepartamento>
         <nome>string</nome>
         <secao>
-          <codigoSecao>AABAH</codigoSecao>
+          <codigoSecao>AAAJH</codigoSecao>
           <nome>string</nome>
           <categoria>
-            <codigoCategoria>AABAI</codigoCategoria>
+            <codigoCategoria>AAAJI</codigoCategoria>
             <nome>string</nome>
             <produto>
-              <codigoProduto>AABAJ</codigoProduto>
+              <codigoProduto>AAAJJ</codigoProduto>
               <nome>string</nome>
-              <estoqueAtual>-3309</estoqueAtual>
-              <estoqueMinimo>3208</estoqueMinimo>
-            </produto>
-          </categoria>
-        </secao>
-        <secao>
-          <codigoSecao>AABBA</codigoSecao>
-          <nome>string</nome>
-          <categoria>
-            <codigoCategoria>AABBB</codigoCategoria>
-            <nome>string</nome>
-            <produto>
-              <codigoProduto>AABBC</codigoProduto>
-              <nome>string</nome>
-              <estoqueAtual>4375</estoqueAtual>
-              <estoqueMinimo>4454</estoqueMinimo>
-            </produto>
-          </categoria>
-        </secao>
-        <secao>
-          <codigoSecao>AABBD</codigoSecao>
-          <nome>string</nome>
-          <categoria>
-            <codigoCategoria>AABBE</codigoCategoria>
-            <nome>string</nome>
-            <produto>
-              <codigoProduto>AABBF</codigoProduto>
-              <nome>string</nome>
-              <estoqueAtual>-1998</estoqueAtual>
-              <estoqueMinimo>283</estoqueMinimo>
-            </produto>
-          </categoria>
-        </secao>
-        <secao>
-          <codigoSecao>AABBG</codigoSecao>
-          <nome>string</nome>
-          <categoria>
-            <codigoCategoria>AABBH</codigoCategoria>
-            <nome>string</nome>
-            <produto>
-              <codigoProduto>AABBI</codigoProduto>
-              <nome>string</nome>
-              <estoqueAtual>-4768</estoqueAtual>
-              <estoqueMinimo>4420</estoqueMinimo>
+              <estoqueAtual>-3386</estoqueAtual>
+              <estoqueMinimo>4651</estoqueMinimo>
+              <grade>
+                <codigoGrade>AABAA</codigoGrade>
+                <nome>string</nome>
+                <gradeItem>
+                  <codigoGradeItem>AABAB</codigoGradeItem>
+                  <nome>string</nome>
+                  <cor>
+                    <codigoCor>AABAC</codigoCor>
+                    <nome>string</nome>
+                  </cor>
+                  <tamanho>
+                    <codigoTamanho>AABAD</codigoTamanho>
+                    <nome>string</nome>
+                  </tamanho>
+                </gradeItem>
+              </grade>
             </produto>
           </categoria>
         </secao>
       </departamento>
       <departamento>
-        <codigoDepartamento>AABBJ</codigoDepartamento>
+        <codigoDepartamento>AABAE</codigoDepartamento>
         <nome>string</nome>
         <secao>
-          <codigoSecao>AABCA</codigoSecao>
+          <codigoSecao>AABAF</codigoSecao>
           <nome>string</nome>
           <categoria>
-            <codigoCategoria>AABCB</codigoCategoria>
+            <codigoCategoria>AABAG</codigoCategoria>
             <nome>string</nome>
             <produto>
-              <codigoProduto>AABCC</codigoProduto>
+              <codigoProduto>AABAH</codigoProduto>
               <nome>string</nome>
-              <estoqueAtual>4810</estoqueAtual>
-              <estoqueMinimo>-2882</estoqueMinimo>
+              <estoqueAtual>3634</estoqueAtual>
+              <estoqueMinimo>-4193</estoqueMinimo>
+              <grade>
+                <codigoGrade>AABAI</codigoGrade>
+                <nome>string</nome>
+                <gradeItem>
+                  <codigoGradeItem>AABAJ</codigoGradeItem>
+                  <nome>string</nome>
+                  <cor>
+                    <codigoCor>AABBA</codigoCor>
+                    <nome>string</nome>
+                  </cor>
+                  <tamanho>
+                    <codigoTamanho>AABBB</codigoTamanho>
+                    <nome>string</nome>
+                  </tamanho>
+                </gradeItem>
+              </grade>
             </produto>
           </categoria>
         </secao>
+      </departamento>
+    </loja>
+    <loja>
+      <codigoLoja>AABBC</codigoLoja>
+      <nome>string</nome>
+      <dataAbertura>1996-08-11T19:32:43.65</dataAbertura>
+      <nroFuncionario>-161</nroFuncionario>
+      <departamento>
+        <codigoDepartamento>AABBD</codigoDepartamento>
+        <nome>string</nome>
         <secao>
-          <codigoSecao>AABCD</codigoSecao>
+          <codigoSecao>AABBE</codigoSecao>
           <nome>string</nome>
           <categoria>
-            <codigoCategoria>AABCE</codigoCategoria>
+            <codigoCategoria>AABBF</codigoCategoria>
             <nome>string</nome>
             <produto>
-              <codigoProduto>AABCF</codigoProduto>
+              <codigoProduto>AABBG</codigoProduto>
               <nome>string</nome>
-              <estoqueAtual>4480</estoqueAtual>
-              <estoqueMinimo>-4319</estoqueMinimo>
-            </produto>
-          </categoria>
-        </secao>
-        <secao>
-          <codigoSecao>AABCG</codigoSecao>
-          <nome>string</nome>
-          <categoria>
-            <codigoCategoria>AABCH</codigoCategoria>
-            <nome>string</nome>
-            <produto>
-              <codigoProduto>AABCI</codigoProduto>
-              <nome>string</nome>
-              <estoqueAtual>4533</estoqueAtual>
-              <estoqueMinimo>-4000</estoqueMinimo>
-            </produto>
-          </categoria>
-        </secao>
-        <secao>
-          <codigoSecao>AABCJ</codigoSecao>
-          <nome>string</nome>
-          <categoria>
-            <codigoCategoria>AABDA</codigoCategoria>
-            <nome>string</nome>
-            <produto>
-              <codigoProduto>AABDB</codigoProduto>
-              <nome>string</nome>
-              <estoqueAtual>672</estoqueAtual>
-              <estoqueMinimo>-3214</estoqueMinimo>
+              <estoqueAtual>3465</estoqueAtual>
+              <estoqueMinimo>-628</estoqueMinimo>
+              <grade>
+                <codigoGrade>AABBH</codigoGrade>
+                <nome>string</nome>
+                <gradeItem>
+                  <codigoGradeItem>AABBI</codigoGradeItem>
+                  <nome>string</nome>
+                  <cor>
+                    <codigoCor>AABBJ</codigoCor>
+                    <nome>string</nome>
+                  </cor>
+                  <tamanho>
+                    <codigoTamanho>AABCA</codigoTamanho>
+                    <nome>string</nome>
+                  </tamanho>
+                </gradeItem>
+              </grade>
             </produto>
           </categoria>
         </secao>
       </departamento>
       <departamento>
-        <codigoDepartamento>AABDC</codigoDepartamento>
+        <codigoDepartamento>AABCB</codigoDepartamento>
         <nome>string</nome>
         <secao>
-          <codigoSecao>AABDD</codigoSecao>
+          <codigoSecao>AABCC</codigoSecao>
           <nome>string</nome>
           <categoria>
-            <codigoCategoria>AABDE</codigoCategoria>
+            <codigoCategoria>AABCD</codigoCategoria>
             <nome>string</nome>
             <produto>
-              <codigoProduto>AABDF</codigoProduto>
+              <codigoProduto>AABCE</codigoProduto>
               <nome>string</nome>
-              <estoqueAtual>-139</estoqueAtual>
-              <estoqueMinimo>4352</estoqueMinimo>
+              <estoqueAtual>1078</estoqueAtual>
+              <estoqueMinimo>-2606</estoqueMinimo>
+              <grade>
+                <codigoGrade>AABCF</codigoGrade>
+                <nome>string</nome>
+                <gradeItem>
+                  <codigoGradeItem>AABCG</codigoGradeItem>
+                  <nome>string</nome>
+                  <cor>
+                    <codigoCor>AABCH</codigoCor>
+                    <nome>string</nome>
+                  </cor>
+                  <tamanho>
+                    <codigoTamanho>AABCI</codigoTamanho>
+                    <nome>string</nome>
+                  </tamanho>
+                </gradeItem>
+              </grade>
             </produto>
           </categoria>
         </secao>
+      </departamento>
+    </loja>
+    <loja>
+      <codigoLoja>AABCJ</codigoLoja>
+      <nome>string</nome>
+      <dataAbertura>1986-12-27T12:15:07.18</dataAbertura>
+      <nroFuncionario>4929</nroFuncionario>
+      <departamento>
+        <codigoDepartamento>AABDA</codigoDepartamento>
+        <nome>string</nome>
         <secao>
-          <codigoSecao>AABDG</codigoSecao>
+          <codigoSecao>AABDB</codigoSecao>
           <nome>string</nome>
           <categoria>
-            <codigoCategoria>AABDH</codigoCategoria>
+            <codigoCategoria>AABDC</codigoCategoria>
             <nome>string</nome>
             <produto>
-              <codigoProduto>AABDI</codigoProduto>
+              <codigoProduto>AABDD</codigoProduto>
               <nome>string</nome>
-              <estoqueAtual>851</estoqueAtual>
-              <estoqueMinimo>2458</estoqueMinimo>
+              <estoqueAtual>3870</estoqueAtual>
+              <estoqueMinimo>-159</estoqueMinimo>
+              <grade>
+                <codigoGrade>AABDE</codigoGrade>
+                <nome>string</nome>
+                <gradeItem>
+                  <codigoGradeItem>AABDF</codigoGradeItem>
+                  <nome>string</nome>
+                  <cor>
+                    <codigoCor>AABDG</codigoCor>
+                    <nome>string</nome>
+                  </cor>
+                  <tamanho>
+                    <codigoTamanho>AABDH</codigoTamanho>
+                    <nome>string</nome>
+                  </tamanho>
+                </gradeItem>
+              </grade>
             </produto>
           </categoria>
         </secao>
+      </departamento>
+      <departamento>
+        <codigoDepartamento>AABDI</codigoDepartamento>
+        <nome>string</nome>
         <secao>
           <codigoSecao>AABDJ</codigoSecao>
           <nome>string</nome>
@@ -653,71 +611,65 @@
             <produto>
               <codigoProduto>AABEB</codigoProduto>
               <nome>string</nome>
-              <estoqueAtual>583</estoqueAtual>
-              <estoqueMinimo>4910</estoqueMinimo>
-            </produto>
-          </categoria>
-        </secao>
-        <secao>
-          <codigoSecao>AABEC</codigoSecao>
-          <nome>string</nome>
-          <categoria>
-            <codigoCategoria>AABED</codigoCategoria>
-            <nome>string</nome>
-            <produto>
-              <codigoProduto>AABEE</codigoProduto>
-              <nome>string</nome>
-              <estoqueAtual>1639</estoqueAtual>
-              <estoqueMinimo>-3920</estoqueMinimo>
+              <estoqueAtual>4048</estoqueAtual>
+              <estoqueMinimo>-1371</estoqueMinimo>
+              <grade>
+                <codigoGrade>AABEC</codigoGrade>
+                <nome>string</nome>
+                <gradeItem>
+                  <codigoGradeItem>AABED</codigoGradeItem>
+                  <nome>string</nome>
+                  <cor>
+                    <codigoCor>AABEE</codigoCor>
+                    <nome>string</nome>
+                  </cor>
+                  <tamanho>
+                    <codigoTamanho>AABEF</codigoTamanho>
+                    <nome>string</nome>
+                  </tamanho>
+                </gradeItem>
+              </grade>
             </produto>
           </categoria>
         </secao>
       </departamento>
       <departamento>
-        <codigoDepartamento>AABEF</codigoDepartamento>
+        <codigoDepartamento>AABEG</codigoDepartamento>
         <nome>string</nome>
         <secao>
-          <codigoSecao>AABEG</codigoSecao>
+          <codigoSecao>AABEH</codigoSecao>
           <nome>string</nome>
           <categoria>
-            <codigoCategoria>AABEH</codigoCategoria>
+            <codigoCategoria>AABEI</codigoCategoria>
             <nome>string</nome>
             <produto>
-              <codigoProduto>AABEI</codigoProduto>
+              <codigoProduto>AABEJ</codigoProduto>
               <nome>string</nome>
-              <estoqueAtual>-1097</estoqueAtual>
-              <estoqueMinimo>-3632</estoqueMinimo>
+              <estoqueAtual>-498</estoqueAtual>
+              <estoqueMinimo>3825</estoqueMinimo>
+              <grade>
+                <codigoGrade>AABFA</codigoGrade>
+                <nome>string</nome>
+                <gradeItem>
+                  <codigoGradeItem>AABFB</codigoGradeItem>
+                  <nome>string</nome>
+                  <cor>
+                    <codigoCor>AABFC</codigoCor>
+                    <nome>string</nome>
+                  </cor>
+                  <tamanho>
+                    <codigoTamanho>AABFD</codigoTamanho>
+                    <nome>string</nome>
+                  </tamanho>
+                </gradeItem>
+              </grade>
             </produto>
           </categoria>
         </secao>
-        <secao>
-          <codigoSecao>AABEJ</codigoSecao>
-          <nome>string</nome>
-          <categoria>
-            <codigoCategoria>AABFA</codigoCategoria>
-            <nome>string</nome>
-            <produto>
-              <codigoProduto>AABFB</codigoProduto>
-              <nome>string</nome>
-              <estoqueAtual>-3740</estoqueAtual>
-              <estoqueMinimo>2562</estoqueMinimo>
-            </produto>
-          </categoria>
-        </secao>
-        <secao>
-          <codigoSecao>AABFC</codigoSecao>
-          <nome>string</nome>
-          <categoria>
-            <codigoCategoria>AABFD</codigoCategoria>
-            <nome>string</nome>
-            <produto>
-              <codigoProduto>AABFE</codigoProduto>
-              <nome>string</nome>
-              <estoqueAtual>2264</estoqueAtual>
-              <estoqueMinimo>3857</estoqueMinimo>
-            </produto>
-          </categoria>
-        </secao>
+      </departamento>
+      <departamento>
+        <codigoDepartamento>AABFE</codigoDepartamento>
+        <nome>string</nome>
         <secao>
           <codigoSecao>AABFF</codigoSecao>
           <nome>string</nome>
@@ -727,32 +679,28 @@
             <produto>
               <codigoProduto>AABFH</codigoProduto>
               <nome>string</nome>
-              <estoqueAtual>465</estoqueAtual>
-              <estoqueMinimo>-1924</estoqueMinimo>
-            </produto>
-          </categoria>
-        </secao>
-        <secao>
-          <codigoSecao>AABFI</codigoSecao>
-          <nome>string</nome>
-          <categoria>
-            <codigoCategoria>AABFJ</codigoCategoria>
-            <nome>string</nome>
-            <produto>
-              <codigoProduto>AABGA</codigoProduto>
-              <nome>string</nome>
-              <estoqueAtual>2859</estoqueAtual>
-              <estoqueMinimo>4640</estoqueMinimo>
+              <estoqueAtual>-895</estoqueAtual>
+              <estoqueMinimo>-49</estoqueMinimo>
+              <grade>
+                <codigoGrade>AABFI</codigoGrade>
+                <nome>string</nome>
+                <gradeItem>
+                  <codigoGradeItem>AABFJ</codigoGradeItem>
+                  <nome>string</nome>
+                  <cor>
+                    <codigoCor>AABGA</codigoCor>
+                    <nome>string</nome>
+                  </cor>
+                  <tamanho>
+                    <codigoTamanho>AABGB</codigoTamanho>
+                    <nome>string</nome>
+                  </tamanho>
+                </gradeItem>
+              </grade>
             </produto>
           </categoria>
         </secao>
       </departamento>
-    </loja>
-    <loja>
-      <codigoLoja>AABGB</codigoLoja>
-      <nome>string</nome>
-      <dataAbertura>2005-02-12T14:45:09.63</dataAbertura>
-      <nroFuncionario>3629</nroFuncionario>
       <departamento>
         <codigoDepartamento>AABGC</codigoDepartamento>
         <nome>string</nome>
@@ -765,114 +713,1042 @@
             <produto>
               <codigoProduto>AABGF</codigoProduto>
               <nome>string</nome>
-              <estoqueAtual>-2072</estoqueAtual>
-              <estoqueMinimo>-1909</estoqueMinimo>
+              <estoqueAtual>2961</estoqueAtual>
+              <estoqueMinimo>3982</estoqueMinimo>
+              <grade>
+                <codigoGrade>AABGG</codigoGrade>
+                <nome>string</nome>
+                <gradeItem>
+                  <codigoGradeItem>AABGH</codigoGradeItem>
+                  <nome>string</nome>
+                  <cor>
+                    <codigoCor>AABGI</codigoCor>
+                    <nome>string</nome>
+                  </cor>
+                  <tamanho>
+                    <codigoTamanho>AABGJ</codigoTamanho>
+                    <nome>string</nome>
+                  </tamanho>
+                </gradeItem>
+              </grade>
             </produto>
           </categoria>
         </secao>
+      </departamento>
+    </loja>
+  </empresa>
+  <empresa>
+    <codigoEmpresa>AABHA</codigoEmpresa>
+    <razaoSocial>string</razaoSocial>
+    <fantasia>string</fantasia>
+    <logradouro>string</logradouro>
+    <loja>
+      <codigoLoja>AABHB</codigoLoja>
+      <nome>string</nome>
+      <dataAbertura>1994-03-15T06:44:03.65</dataAbertura>
+      <nroFuncionario>846</nroFuncionario>
+      <departamento>
+        <codigoDepartamento>AABHC</codigoDepartamento>
+        <nome>string</nome>
         <secao>
-          <codigoSecao>AABGG</codigoSecao>
+          <codigoSecao>AABHD</codigoSecao>
           <nome>string</nome>
           <categoria>
-            <codigoCategoria>AABGH</codigoCategoria>
+            <codigoCategoria>AABHE</codigoCategoria>
             <nome>string</nome>
             <produto>
-              <codigoProduto>AABGI</codigoProduto>
+              <codigoProduto>AABHF</codigoProduto>
               <nome>string</nome>
-              <estoqueAtual>-3034</estoqueAtual>
-              <estoqueMinimo>-2979</estoqueMinimo>
+              <estoqueAtual>480</estoqueAtual>
+              <estoqueMinimo>4125</estoqueMinimo>
+              <grade>
+                <codigoGrade>AABHG</codigoGrade>
+                <nome>string</nome>
+                <gradeItem>
+                  <codigoGradeItem>AABHH</codigoGradeItem>
+                  <nome>string</nome>
+                  <cor>
+                    <codigoCor>AABHI</codigoCor>
+                    <nome>string</nome>
+                  </cor>
+                  <tamanho>
+                    <codigoTamanho>AABHJ</codigoTamanho>
+                    <nome>string</nome>
+                  </tamanho>
+                </gradeItem>
+              </grade>
             </produto>
           </categoria>
         </secao>
       </departamento>
       <departamento>
-        <codigoDepartamento>AABGJ</codigoDepartamento>
+        <codigoDepartamento>AABIA</codigoDepartamento>
         <nome>string</nome>
         <secao>
-          <codigoSecao>AABHA</codigoSecao>
+          <codigoSecao>AABIB</codigoSecao>
           <nome>string</nome>
           <categoria>
-            <codigoCategoria>AABHB</codigoCategoria>
+            <codigoCategoria>AABIC</codigoCategoria>
             <nome>string</nome>
             <produto>
-              <codigoProduto>AABHC</codigoProduto>
+              <codigoProduto>AABID</codigoProduto>
               <nome>string</nome>
-              <estoqueAtual>3686</estoqueAtual>
-              <estoqueMinimo>3763</estoqueMinimo>
+              <estoqueAtual>-2842</estoqueAtual>
+              <estoqueMinimo>753</estoqueMinimo>
+              <grade>
+                <codigoGrade>AABIE</codigoGrade>
+                <nome>string</nome>
+                <gradeItem>
+                  <codigoGradeItem>AABIF</codigoGradeItem>
+                  <nome>string</nome>
+                  <cor>
+                    <codigoCor>AABIG</codigoCor>
+                    <nome>string</nome>
+                  </cor>
+                  <tamanho>
+                    <codigoTamanho>AABIH</codigoTamanho>
+                    <nome>string</nome>
+                  </tamanho>
+                </gradeItem>
+              </grade>
             </produto>
           </categoria>
         </secao>
       </departamento>
       <departamento>
-        <codigoDepartamento>AABHD</codigoDepartamento>
+        <codigoDepartamento>AABII</codigoDepartamento>
         <nome>string</nome>
         <secao>
-          <codigoSecao>AABHE</codigoSecao>
+          <codigoSecao>AABIJ</codigoSecao>
           <nome>string</nome>
           <categoria>
-            <codigoCategoria>AABHF</codigoCategoria>
+            <codigoCategoria>AABJA</codigoCategoria>
             <nome>string</nome>
             <produto>
-              <codigoProduto>AABHG</codigoProduto>
+              <codigoProduto>AABJB</codigoProduto>
               <nome>string</nome>
-              <estoqueAtual>3225</estoqueAtual>
-              <estoqueMinimo>-2777</estoqueMinimo>
+              <estoqueAtual>515</estoqueAtual>
+              <estoqueMinimo>-4088</estoqueMinimo>
+              <grade>
+                <codigoGrade>AABJC</codigoGrade>
+                <nome>string</nome>
+                <gradeItem>
+                  <codigoGradeItem>AABJD</codigoGradeItem>
+                  <nome>string</nome>
+                  <cor>
+                    <codigoCor>AABJE</codigoCor>
+                    <nome>string</nome>
+                  </cor>
+                  <tamanho>
+                    <codigoTamanho>AABJF</codigoTamanho>
+                    <nome>string</nome>
+                  </tamanho>
+                </gradeItem>
+              </grade>
             </produto>
           </categoria>
         </secao>
+      </departamento>
+      <departamento>
+        <codigoDepartamento>AABJG</codigoDepartamento>
+        <nome>string</nome>
         <secao>
-          <codigoSecao>AABHH</codigoSecao>
+          <codigoSecao>AABJH</codigoSecao>
           <nome>string</nome>
           <categoria>
-            <codigoCategoria>AABHI</codigoCategoria>
+            <codigoCategoria>AABJI</codigoCategoria>
             <nome>string</nome>
             <produto>
-              <codigoProduto>AABHJ</codigoProduto>
+              <codigoProduto>AABJJ</codigoProduto>
               <nome>string</nome>
-              <estoqueAtual>-4628</estoqueAtual>
-              <estoqueMinimo>-1798</estoqueMinimo>
+              <estoqueAtual>2925</estoqueAtual>
+              <estoqueMinimo>509</estoqueMinimo>
+              <grade>
+                <codigoGrade>AACAA</codigoGrade>
+                <nome>string</nome>
+                <gradeItem>
+                  <codigoGradeItem>AACAB</codigoGradeItem>
+                  <nome>string</nome>
+                  <cor>
+                    <codigoCor>AACAC</codigoCor>
+                    <nome>string</nome>
+                  </cor>
+                  <tamanho>
+                    <codigoTamanho>AACAD</codigoTamanho>
+                    <nome>string</nome>
+                  </tamanho>
+                </gradeItem>
+              </grade>
             </produto>
           </categoria>
         </secao>
+      </departamento>
+      <departamento>
+        <codigoDepartamento>AACAE</codigoDepartamento>
+        <nome>string</nome>
         <secao>
-          <codigoSecao>AABIA</codigoSecao>
+          <codigoSecao>AACAF</codigoSecao>
           <nome>string</nome>
           <categoria>
-            <codigoCategoria>AABIB</codigoCategoria>
+            <codigoCategoria>AACAG</codigoCategoria>
             <nome>string</nome>
             <produto>
-              <codigoProduto>AABIC</codigoProduto>
+              <codigoProduto>AACAH</codigoProduto>
               <nome>string</nome>
-              <estoqueAtual>-2992</estoqueAtual>
-              <estoqueMinimo>1457</estoqueMinimo>
+              <estoqueAtual>1772</estoqueAtual>
+              <estoqueMinimo>-3860</estoqueMinimo>
+              <grade>
+                <codigoGrade>AACAI</codigoGrade>
+                <nome>string</nome>
+                <gradeItem>
+                  <codigoGradeItem>AACAJ</codigoGradeItem>
+                  <nome>string</nome>
+                  <cor>
+                    <codigoCor>AACBA</codigoCor>
+                    <nome>string</nome>
+                  </cor>
+                  <tamanho>
+                    <codigoTamanho>AACBB</codigoTamanho>
+                    <nome>string</nome>
+                  </tamanho>
+                </gradeItem>
+              </grade>
             </produto>
           </categoria>
         </secao>
+      </departamento>
+    </loja>
+    <loja>
+      <codigoLoja>AACBC</codigoLoja>
+      <nome>string</nome>
+      <dataAbertura>1994-12-02T09:12:09.23</dataAbertura>
+      <nroFuncionario>-1484</nroFuncionario>
+      <departamento>
+        <codigoDepartamento>AACBD</codigoDepartamento>
+        <nome>string</nome>
         <secao>
-          <codigoSecao>AABID</codigoSecao>
+          <codigoSecao>AACBE</codigoSecao>
           <nome>string</nome>
           <categoria>
-            <codigoCategoria>AABIE</codigoCategoria>
+            <codigoCategoria>AACBF</codigoCategoria>
             <nome>string</nome>
             <produto>
-              <codigoProduto>AABIF</codigoProduto>
+              <codigoProduto>AACBG</codigoProduto>
               <nome>string</nome>
-              <estoqueAtual>3086</estoqueAtual>
-              <estoqueMinimo>-3447</estoqueMinimo>
+              <estoqueAtual>4762</estoqueAtual>
+              <estoqueMinimo>-4861</estoqueMinimo>
+              <grade>
+                <codigoGrade>AACBH</codigoGrade>
+                <nome>string</nome>
+                <gradeItem>
+                  <codigoGradeItem>AACBI</codigoGradeItem>
+                  <nome>string</nome>
+                  <cor>
+                    <codigoCor>AACBJ</codigoCor>
+                    <nome>string</nome>
+                  </cor>
+                  <tamanho>
+                    <codigoTamanho>AACCA</codigoTamanho>
+                    <nome>string</nome>
+                  </tamanho>
+                </gradeItem>
+              </grade>
             </produto>
           </categoria>
         </secao>
+      </departamento>
+      <departamento>
+        <codigoDepartamento>AACCB</codigoDepartamento>
+        <nome>string</nome>
         <secao>
-          <codigoSecao>AABIG</codigoSecao>
+          <codigoSecao>AACCC</codigoSecao>
           <nome>string</nome>
           <categoria>
-            <codigoCategoria>AABIH</codigoCategoria>
+            <codigoCategoria>AACCD</codigoCategoria>
             <nome>string</nome>
             <produto>
-              <codigoProduto>AABII</codigoProduto>
+              <codigoProduto>AACCE</codigoProduto>
               <nome>string</nome>
-              <estoqueAtual>4095</estoqueAtual>
-              <estoqueMinimo>-572</estoqueMinimo>
+              <estoqueAtual>-4964</estoqueAtual>
+              <estoqueMinimo>-45</estoqueMinimo>
+              <grade>
+                <codigoGrade>AACCF</codigoGrade>
+                <nome>string</nome>
+                <gradeItem>
+                  <codigoGradeItem>AACCG</codigoGradeItem>
+                  <nome>string</nome>
+                  <cor>
+                    <codigoCor>AACCH</codigoCor>
+                    <nome>string</nome>
+                  </cor>
+                  <tamanho>
+                    <codigoTamanho>AACCI</codigoTamanho>
+                    <nome>string</nome>
+                  </tamanho>
+                </gradeItem>
+              </grade>
+            </produto>
+          </categoria>
+        </secao>
+      </departamento>
+      <departamento>
+        <codigoDepartamento>AACCJ</codigoDepartamento>
+        <nome>string</nome>
+        <secao>
+          <codigoSecao>AACDA</codigoSecao>
+          <nome>string</nome>
+          <categoria>
+            <codigoCategoria>AACDB</codigoCategoria>
+            <nome>string</nome>
+            <produto>
+              <codigoProduto>AACDC</codigoProduto>
+              <nome>string</nome>
+              <estoqueAtual>-4704</estoqueAtual>
+              <estoqueMinimo>3494</estoqueMinimo>
+              <grade>
+                <codigoGrade>AACDD</codigoGrade>
+                <nome>string</nome>
+                <gradeItem>
+                  <codigoGradeItem>AACDE</codigoGradeItem>
+                  <nome>string</nome>
+                  <cor>
+                    <codigoCor>AACDF</codigoCor>
+                    <nome>string</nome>
+                  </cor>
+                  <tamanho>
+                    <codigoTamanho>AACDG</codigoTamanho>
+                    <nome>string</nome>
+                  </tamanho>
+                </gradeItem>
+              </grade>
+            </produto>
+          </categoria>
+        </secao>
+      </departamento>
+      <departamento>
+        <codigoDepartamento>AACDH</codigoDepartamento>
+        <nome>string</nome>
+        <secao>
+          <codigoSecao>AACDI</codigoSecao>
+          <nome>string</nome>
+          <categoria>
+            <codigoCategoria>AACDJ</codigoCategoria>
+            <nome>string</nome>
+            <produto>
+              <codigoProduto>AACEA</codigoProduto>
+              <nome>string</nome>
+              <estoqueAtual>-1354</estoqueAtual>
+              <estoqueMinimo>-694</estoqueMinimo>
+              <grade>
+                <codigoGrade>AACEB</codigoGrade>
+                <nome>string</nome>
+                <gradeItem>
+                  <codigoGradeItem>AACEC</codigoGradeItem>
+                  <nome>string</nome>
+                  <cor>
+                    <codigoCor>AACED</codigoCor>
+                    <nome>string</nome>
+                  </cor>
+                  <tamanho>
+                    <codigoTamanho>AACEE</codigoTamanho>
+                    <nome>string</nome>
+                  </tamanho>
+                </gradeItem>
+              </grade>
+            </produto>
+          </categoria>
+        </secao>
+      </departamento>
+    </loja>
+    <loja>
+      <codigoLoja>AACEF</codigoLoja>
+      <nome>string</nome>
+      <dataAbertura>1988-04-10T20:35:35.05</dataAbertura>
+      <nroFuncionario>-1244</nroFuncionario>
+      <departamento>
+        <codigoDepartamento>AACEG</codigoDepartamento>
+        <nome>string</nome>
+        <secao>
+          <codigoSecao>AACEH</codigoSecao>
+          <nome>string</nome>
+          <categoria>
+            <codigoCategoria>AACEI</codigoCategoria>
+            <nome>string</nome>
+            <produto>
+              <codigoProduto>AACEJ</codigoProduto>
+              <nome>string</nome>
+              <estoqueAtual>-3295</estoqueAtual>
+              <estoqueMinimo>-613</estoqueMinimo>
+              <grade>
+                <codigoGrade>AACFA</codigoGrade>
+                <nome>string</nome>
+                <gradeItem>
+                  <codigoGradeItem>AACFB</codigoGradeItem>
+                  <nome>string</nome>
+                  <cor>
+                    <codigoCor>AACFC</codigoCor>
+                    <nome>string</nome>
+                  </cor>
+                  <tamanho>
+                    <codigoTamanho>AACFD</codigoTamanho>
+                    <nome>string</nome>
+                  </tamanho>
+                </gradeItem>
+              </grade>
+            </produto>
+          </categoria>
+        </secao>
+      </departamento>
+      <departamento>
+        <codigoDepartamento>AACFE</codigoDepartamento>
+        <nome>string</nome>
+        <secao>
+          <codigoSecao>AACFF</codigoSecao>
+          <nome>string</nome>
+          <categoria>
+            <codigoCategoria>AACFG</codigoCategoria>
+            <nome>string</nome>
+            <produto>
+              <codigoProduto>AACFH</codigoProduto>
+              <nome>string</nome>
+              <estoqueAtual>3230</estoqueAtual>
+              <estoqueMinimo>3517</estoqueMinimo>
+              <grade>
+                <codigoGrade>AACFI</codigoGrade>
+                <nome>string</nome>
+                <gradeItem>
+                  <codigoGradeItem>AACFJ</codigoGradeItem>
+                  <nome>string</nome>
+                  <cor>
+                    <codigoCor>AACGA</codigoCor>
+                    <nome>string</nome>
+                  </cor>
+                  <tamanho>
+                    <codigoTamanho>AACGB</codigoTamanho>
+                    <nome>string</nome>
+                  </tamanho>
+                </gradeItem>
+              </grade>
+            </produto>
+          </categoria>
+        </secao>
+      </departamento>
+    </loja>
+    <loja>
+      <codigoLoja>AACGC</codigoLoja>
+      <nome>string</nome>
+      <dataAbertura>1997-09-23T17:29:14.20</dataAbertura>
+      <nroFuncionario>2113</nroFuncionario>
+      <departamento>
+        <codigoDepartamento>AACGD</codigoDepartamento>
+        <nome>string</nome>
+        <secao>
+          <codigoSecao>AACGE</codigoSecao>
+          <nome>string</nome>
+          <categoria>
+            <codigoCategoria>AACGF</codigoCategoria>
+            <nome>string</nome>
+            <produto>
+              <codigoProduto>AACGG</codigoProduto>
+              <nome>string</nome>
+              <estoqueAtual>-2283</estoqueAtual>
+              <estoqueMinimo>-2987</estoqueMinimo>
+              <grade>
+                <codigoGrade>AACGH</codigoGrade>
+                <nome>string</nome>
+                <gradeItem>
+                  <codigoGradeItem>AACGI</codigoGradeItem>
+                  <nome>string</nome>
+                  <cor>
+                    <codigoCor>AACGJ</codigoCor>
+                    <nome>string</nome>
+                  </cor>
+                  <tamanho>
+                    <codigoTamanho>AACHA</codigoTamanho>
+                    <nome>string</nome>
+                  </tamanho>
+                </gradeItem>
+              </grade>
+            </produto>
+          </categoria>
+        </secao>
+      </departamento>
+    </loja>
+  </empresa>
+  <empresa>
+    <codigoEmpresa>AACHB</codigoEmpresa>
+    <razaoSocial>string</razaoSocial>
+    <fantasia>string</fantasia>
+    <logradouro>string</logradouro>
+    <loja>
+      <codigoLoja>AACHC</codigoLoja>
+      <nome>string</nome>
+      <dataAbertura>1989-11-04T14:58:02.53</dataAbertura>
+      <nroFuncionario>-457</nroFuncionario>
+      <departamento>
+        <codigoDepartamento>AACHD</codigoDepartamento>
+        <nome>string</nome>
+        <secao>
+          <codigoSecao>AACHE</codigoSecao>
+          <nome>string</nome>
+          <categoria>
+            <codigoCategoria>AACHF</codigoCategoria>
+            <nome>string</nome>
+            <produto>
+              <codigoProduto>AACHG</codigoProduto>
+              <nome>string</nome>
+              <estoqueAtual>-2880</estoqueAtual>
+              <estoqueMinimo>1899</estoqueMinimo>
+              <grade>
+                <codigoGrade>AACHH</codigoGrade>
+                <nome>string</nome>
+                <gradeItem>
+                  <codigoGradeItem>AACHI</codigoGradeItem>
+                  <nome>string</nome>
+                  <cor>
+                    <codigoCor>AACHJ</codigoCor>
+                    <nome>string</nome>
+                  </cor>
+                  <tamanho>
+                    <codigoTamanho>AACIA</codigoTamanho>
+                    <nome>string</nome>
+                  </tamanho>
+                </gradeItem>
+              </grade>
+            </produto>
+          </categoria>
+        </secao>
+      </departamento>
+      <departamento>
+        <codigoDepartamento>AACIB</codigoDepartamento>
+        <nome>string</nome>
+        <secao>
+          <codigoSecao>AACIC</codigoSecao>
+          <nome>string</nome>
+          <categoria>
+            <codigoCategoria>AACID</codigoCategoria>
+            <nome>string</nome>
+            <produto>
+              <codigoProduto>AACIE</codigoProduto>
+              <nome>string</nome>
+              <estoqueAtual>3752</estoqueAtual>
+              <estoqueMinimo>2493</estoqueMinimo>
+              <grade>
+                <codigoGrade>AACIF</codigoGrade>
+                <nome>string</nome>
+                <gradeItem>
+                  <codigoGradeItem>AACIG</codigoGradeItem>
+                  <nome>string</nome>
+                  <cor>
+                    <codigoCor>AACIH</codigoCor>
+                    <nome>string</nome>
+                  </cor>
+                  <tamanho>
+                    <codigoTamanho>AACII</codigoTamanho>
+                    <nome>string</nome>
+                  </tamanho>
+                </gradeItem>
+              </grade>
+            </produto>
+          </categoria>
+        </secao>
+      </departamento>
+    </loja>
+    <loja>
+      <codigoLoja>AACIJ</codigoLoja>
+      <nome>string</nome>
+      <dataAbertura>1998-01-17T13:41:24.45</dataAbertura>
+      <nroFuncionario>-3014</nroFuncionario>
+      <departamento>
+        <codigoDepartamento>AACJA</codigoDepartamento>
+        <nome>string</nome>
+        <secao>
+          <codigoSecao>AACJB</codigoSecao>
+          <nome>string</nome>
+          <categoria>
+            <codigoCategoria>AACJC</codigoCategoria>
+            <nome>string</nome>
+            <produto>
+              <codigoProduto>AACJD</codigoProduto>
+              <nome>string</nome>
+              <estoqueAtual>3136</estoqueAtual>
+              <estoqueMinimo>3633</estoqueMinimo>
+              <grade>
+                <codigoGrade>AACJE</codigoGrade>
+                <nome>string</nome>
+                <gradeItem>
+                  <codigoGradeItem>AACJF</codigoGradeItem>
+                  <nome>string</nome>
+                  <cor>
+                    <codigoCor>AACJG</codigoCor>
+                    <nome>string</nome>
+                  </cor>
+                  <tamanho>
+                    <codigoTamanho>AACJH</codigoTamanho>
+                    <nome>string</nome>
+                  </tamanho>
+                </gradeItem>
+              </grade>
+            </produto>
+          </categoria>
+        </secao>
+      </departamento>
+      <departamento>
+        <codigoDepartamento>AACJI</codigoDepartamento>
+        <nome>string</nome>
+        <secao>
+          <codigoSecao>AACJJ</codigoSecao>
+          <nome>string</nome>
+          <categoria>
+            <codigoCategoria>AADAA</codigoCategoria>
+            <nome>string</nome>
+            <produto>
+              <codigoProduto>AADAB</codigoProduto>
+              <nome>string</nome>
+              <estoqueAtual>-1759</estoqueAtual>
+              <estoqueMinimo>651</estoqueMinimo>
+              <grade>
+                <codigoGrade>AADAC</codigoGrade>
+                <nome>string</nome>
+                <gradeItem>
+                  <codigoGradeItem>AADAD</codigoGradeItem>
+                  <nome>string</nome>
+                  <cor>
+                    <codigoCor>AADAE</codigoCor>
+                    <nome>string</nome>
+                  </cor>
+                  <tamanho>
+                    <codigoTamanho>AADAF</codigoTamanho>
+                    <nome>string</nome>
+                  </tamanho>
+                </gradeItem>
+              </grade>
+            </produto>
+          </categoria>
+        </secao>
+      </departamento>
+    </loja>
+    <loja>
+      <codigoLoja>AADAG</codigoLoja>
+      <nome>string</nome>
+      <dataAbertura>1993-02-04T17:33:49.53</dataAbertura>
+      <nroFuncionario>-2897</nroFuncionario>
+      <departamento>
+        <codigoDepartamento>AADAH</codigoDepartamento>
+        <nome>string</nome>
+        <secao>
+          <codigoSecao>AADAI</codigoSecao>
+          <nome>string</nome>
+          <categoria>
+            <codigoCategoria>AADAJ</codigoCategoria>
+            <nome>string</nome>
+            <produto>
+              <codigoProduto>AADBA</codigoProduto>
+              <nome>string</nome>
+              <estoqueAtual>3759</estoqueAtual>
+              <estoqueMinimo>-768</estoqueMinimo>
+              <grade>
+                <codigoGrade>AADBB</codigoGrade>
+                <nome>string</nome>
+                <gradeItem>
+                  <codigoGradeItem>AADBC</codigoGradeItem>
+                  <nome>string</nome>
+                  <cor>
+                    <codigoCor>AADBD</codigoCor>
+                    <nome>string</nome>
+                  </cor>
+                  <tamanho>
+                    <codigoTamanho>AADBE</codigoTamanho>
+                    <nome>string</nome>
+                  </tamanho>
+                </gradeItem>
+              </grade>
+            </produto>
+          </categoria>
+        </secao>
+      </departamento>
+      <departamento>
+        <codigoDepartamento>AADBF</codigoDepartamento>
+        <nome>string</nome>
+        <secao>
+          <codigoSecao>AADBG</codigoSecao>
+          <nome>string</nome>
+          <categoria>
+            <codigoCategoria>AADBH</codigoCategoria>
+            <nome>string</nome>
+            <produto>
+              <codigoProduto>AADBI</codigoProduto>
+              <nome>string</nome>
+              <estoqueAtual>-4305</estoqueAtual>
+              <estoqueMinimo>3034</estoqueMinimo>
+              <grade>
+                <codigoGrade>AADBJ</codigoGrade>
+                <nome>string</nome>
+                <gradeItem>
+                  <codigoGradeItem>AADCA</codigoGradeItem>
+                  <nome>string</nome>
+                  <cor>
+                    <codigoCor>AADCB</codigoCor>
+                    <nome>string</nome>
+                  </cor>
+                  <tamanho>
+                    <codigoTamanho>AADCC</codigoTamanho>
+                    <nome>string</nome>
+                  </tamanho>
+                </gradeItem>
+              </grade>
+            </produto>
+          </categoria>
+        </secao>
+      </departamento>
+      <departamento>
+        <codigoDepartamento>AADCD</codigoDepartamento>
+        <nome>string</nome>
+        <secao>
+          <codigoSecao>AADCE</codigoSecao>
+          <nome>string</nome>
+          <categoria>
+            <codigoCategoria>AADCF</codigoCategoria>
+            <nome>string</nome>
+            <produto>
+              <codigoProduto>AADCG</codigoProduto>
+              <nome>string</nome>
+              <estoqueAtual>1819</estoqueAtual>
+              <estoqueMinimo>752</estoqueMinimo>
+              <grade>
+                <codigoGrade>AADCH</codigoGrade>
+                <nome>string</nome>
+                <gradeItem>
+                  <codigoGradeItem>AADCI</codigoGradeItem>
+                  <nome>string</nome>
+                  <cor>
+                    <codigoCor>AADCJ</codigoCor>
+                    <nome>string</nome>
+                  </cor>
+                  <tamanho>
+                    <codigoTamanho>AADDA</codigoTamanho>
+                    <nome>string</nome>
+                  </tamanho>
+                </gradeItem>
+              </grade>
+            </produto>
+          </categoria>
+        </secao>
+      </departamento>
+    </loja>
+    <loja>
+      <codigoLoja>AADDB</codigoLoja>
+      <nome>string</nome>
+      <dataAbertura>1978-04-28T04:27:16.75</dataAbertura>
+      <nroFuncionario>-4008</nroFuncionario>
+      <departamento>
+        <codigoDepartamento>AADDC</codigoDepartamento>
+        <nome>string</nome>
+        <secao>
+          <codigoSecao>AADDD</codigoSecao>
+          <nome>string</nome>
+          <categoria>
+            <codigoCategoria>AADDE</codigoCategoria>
+            <nome>string</nome>
+            <produto>
+              <codigoProduto>AADDF</codigoProduto>
+              <nome>string</nome>
+              <estoqueAtual>548</estoqueAtual>
+              <estoqueMinimo>4757</estoqueMinimo>
+              <grade>
+                <codigoGrade>AADDG</codigoGrade>
+                <nome>string</nome>
+                <gradeItem>
+                  <codigoGradeItem>AADDH</codigoGradeItem>
+                  <nome>string</nome>
+                  <cor>
+                    <codigoCor>AADDI</codigoCor>
+                    <nome>string</nome>
+                  </cor>
+                  <tamanho>
+                    <codigoTamanho>AADDJ</codigoTamanho>
+                    <nome>string</nome>
+                  </tamanho>
+                </gradeItem>
+              </grade>
+            </produto>
+          </categoria>
+        </secao>
+      </departamento>
+      <departamento>
+        <codigoDepartamento>AADEA</codigoDepartamento>
+        <nome>string</nome>
+        <secao>
+          <codigoSecao>AADEB</codigoSecao>
+          <nome>string</nome>
+          <categoria>
+            <codigoCategoria>AADEC</codigoCategoria>
+            <nome>string</nome>
+            <produto>
+              <codigoProduto>AADED</codigoProduto>
+              <nome>string</nome>
+              <estoqueAtual>-2069</estoqueAtual>
+              <estoqueMinimo>-2041</estoqueMinimo>
+              <grade>
+                <codigoGrade>AADEE</codigoGrade>
+                <nome>string</nome>
+                <gradeItem>
+                  <codigoGradeItem>AADEF</codigoGradeItem>
+                  <nome>string</nome>
+                  <cor>
+                    <codigoCor>AADEG</codigoCor>
+                    <nome>string</nome>
+                  </cor>
+                  <tamanho>
+                    <codigoTamanho>AADEH</codigoTamanho>
+                    <nome>string</nome>
+                  </tamanho>
+                </gradeItem>
+              </grade>
+            </produto>
+          </categoria>
+        </secao>
+      </departamento>
+      <departamento>
+        <codigoDepartamento>AADEI</codigoDepartamento>
+        <nome>string</nome>
+        <secao>
+          <codigoSecao>AADEJ</codigoSecao>
+          <nome>string</nome>
+          <categoria>
+            <codigoCategoria>AADFA</codigoCategoria>
+            <nome>string</nome>
+            <produto>
+              <codigoProduto>AADFB</codigoProduto>
+              <nome>string</nome>
+              <estoqueAtual>2105</estoqueAtual>
+              <estoqueMinimo>-4568</estoqueMinimo>
+              <grade>
+                <codigoGrade>AADFC</codigoGrade>
+                <nome>string</nome>
+                <gradeItem>
+                  <codigoGradeItem>AADFD</codigoGradeItem>
+                  <nome>string</nome>
+                  <cor>
+                    <codigoCor>AADFE</codigoCor>
+                    <nome>string</nome>
+                  </cor>
+                  <tamanho>
+                    <codigoTamanho>AADFF</codigoTamanho>
+                    <nome>string</nome>
+                  </tamanho>
+                </gradeItem>
+              </grade>
+            </produto>
+          </categoria>
+        </secao>
+      </departamento>
+      <departamento>
+        <codigoDepartamento>AADFG</codigoDepartamento>
+        <nome>string</nome>
+        <secao>
+          <codigoSecao>AADFH</codigoSecao>
+          <nome>string</nome>
+          <categoria>
+            <codigoCategoria>AADFI</codigoCategoria>
+            <nome>string</nome>
+            <produto>
+              <codigoProduto>AADFJ</codigoProduto>
+              <nome>string</nome>
+              <estoqueAtual>1373</estoqueAtual>
+              <estoqueMinimo>-3687</estoqueMinimo>
+              <grade>
+                <codigoGrade>AADGA</codigoGrade>
+                <nome>string</nome>
+                <gradeItem>
+                  <codigoGradeItem>AADGB</codigoGradeItem>
+                  <nome>string</nome>
+                  <cor>
+                    <codigoCor>AADGC</codigoCor>
+                    <nome>string</nome>
+                  </cor>
+                  <tamanho>
+                    <codigoTamanho>AADGD</codigoTamanho>
+                    <nome>string</nome>
+                  </tamanho>
+                </gradeItem>
+              </grade>
+            </produto>
+          </categoria>
+        </secao>
+      </departamento>
+    </loja>
+    <loja>
+      <codigoLoja>AADGE</codigoLoja>
+      <nome>string</nome>
+      <dataAbertura>2017-11-10T21:44:30.61</dataAbertura>
+      <nroFuncionario>-2640</nroFuncionario>
+      <departamento>
+        <codigoDepartamento>AADGF</codigoDepartamento>
+        <nome>string</nome>
+        <secao>
+          <codigoSecao>AADGG</codigoSecao>
+          <nome>string</nome>
+          <categoria>
+            <codigoCategoria>AADGH</codigoCategoria>
+            <nome>string</nome>
+            <produto>
+              <codigoProduto>AADGI</codigoProduto>
+              <nome>string</nome>
+              <estoqueAtual>-2789</estoqueAtual>
+              <estoqueMinimo>3410</estoqueMinimo>
+              <grade>
+                <codigoGrade>AADGJ</codigoGrade>
+                <nome>string</nome>
+                <gradeItem>
+                  <codigoGradeItem>AADHA</codigoGradeItem>
+                  <nome>string</nome>
+                  <cor>
+                    <codigoCor>AADHB</codigoCor>
+                    <nome>string</nome>
+                  </cor>
+                  <tamanho>
+                    <codigoTamanho>AADHC</codigoTamanho>
+                    <nome>string</nome>
+                  </tamanho>
+                </gradeItem>
+              </grade>
+            </produto>
+          </categoria>
+        </secao>
+      </departamento>
+      <departamento>
+        <codigoDepartamento>AADHD</codigoDepartamento>
+        <nome>string</nome>
+        <secao>
+          <codigoSecao>AADHE</codigoSecao>
+          <nome>string</nome>
+          <categoria>
+            <codigoCategoria>AADHF</codigoCategoria>
+            <nome>string</nome>
+            <produto>
+              <codigoProduto>AADHG</codigoProduto>
+              <nome>string</nome>
+              <estoqueAtual>-4041</estoqueAtual>
+              <estoqueMinimo>3911</estoqueMinimo>
+              <grade>
+                <codigoGrade>AADHH</codigoGrade>
+                <nome>string</nome>
+                <gradeItem>
+                  <codigoGradeItem>AADHI</codigoGradeItem>
+                  <nome>string</nome>
+                  <cor>
+                    <codigoCor>AADHJ</codigoCor>
+                    <nome>string</nome>
+                  </cor>
+                  <tamanho>
+                    <codigoTamanho>AADIA</codigoTamanho>
+                    <nome>string</nome>
+                  </tamanho>
+                </gradeItem>
+              </grade>
+            </produto>
+          </categoria>
+        </secao>
+      </departamento>
+      <departamento>
+        <codigoDepartamento>AADIB</codigoDepartamento>
+        <nome>string</nome>
+        <secao>
+          <codigoSecao>AADIC</codigoSecao>
+          <nome>string</nome>
+          <categoria>
+            <codigoCategoria>AADID</codigoCategoria>
+            <nome>string</nome>
+            <produto>
+              <codigoProduto>AADIE</codigoProduto>
+              <nome>string</nome>
+              <estoqueAtual>-487</estoqueAtual>
+              <estoqueMinimo>-1884</estoqueMinimo>
+              <grade>
+                <codigoGrade>AADIF</codigoGrade>
+                <nome>string</nome>
+                <gradeItem>
+                  <codigoGradeItem>AADIG</codigoGradeItem>
+                  <nome>string</nome>
+                  <cor>
+                    <codigoCor>AADIH</codigoCor>
+                    <nome>string</nome>
+                  </cor>
+                  <tamanho>
+                    <codigoTamanho>AADII</codigoTamanho>
+                    <nome>string</nome>
+                  </tamanho>
+                </gradeItem>
+              </grade>
+            </produto>
+          </categoria>
+        </secao>
+      </departamento>
+      <departamento>
+        <codigoDepartamento>AADIJ</codigoDepartamento>
+        <nome>string</nome>
+        <secao>
+          <codigoSecao>AADJA</codigoSecao>
+          <nome>string</nome>
+          <categoria>
+            <codigoCategoria>AADJB</codigoCategoria>
+            <nome>string</nome>
+            <produto>
+              <codigoProduto>AADJC</codigoProduto>
+              <nome>string</nome>
+              <estoqueAtual>3990</estoqueAtual>
+              <estoqueMinimo>-4363</estoqueMinimo>
+              <grade>
+                <codigoGrade>AADJD</codigoGrade>
+                <nome>string</nome>
+                <gradeItem>
+                  <codigoGradeItem>AADJE</codigoGradeItem>
+                  <nome>string</nome>
+                  <cor>
+                    <codigoCor>AADJF</codigoCor>
+                    <nome>string</nome>
+                  </cor>
+                  <tamanho>
+                    <codigoTamanho>AADJG</codigoTamanho>
+                    <nome>string</nome>
+                  </tamanho>
+                </gradeItem>
+              </grade>
+            </produto>
+          </categoria>
+        </secao>
+      </departamento>
+      <departamento>
+        <codigoDepartamento>AADJH</codigoDepartamento>
+        <nome>string</nome>
+        <secao>
+          <codigoSecao>AADJI</codigoSecao>
+          <nome>string</nome>
+          <categoria>
+            <codigoCategoria>AADJJ</codigoCategoria>
+            <nome>string</nome>
+            <produto>
+              <codigoProduto>AAEAA</codigoProduto>
+              <nome>string</nome>
+              <estoqueAtual>-1993</estoqueAtual>
+              <estoqueMinimo>1374</estoqueMinimo>
+              <grade>
+                <codigoGrade>AAEAB</codigoGrade>
+                <nome>string</nome>
+                <gradeItem>
+                  <codigoGradeItem>AAEAC</codigoGradeItem>
+                  <nome>string</nome>
+                  <cor>
+                    <codigoCor>AAEAD</codigoCor>
+                    <nome>string</nome>
+                  </cor>
+                  <tamanho>
+                    <codigoTamanho>AAEAE</codigoTamanho>
+                    <nome>string</nome>
+                  </tamanho>
+                </gradeItem>
+              </grade>
             </produto>
           </categoria>
         </secao>
