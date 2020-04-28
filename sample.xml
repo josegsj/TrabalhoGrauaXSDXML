@@ -2,24 +2,49 @@
 <!-- Created with Liquid Technologies Online Tools 1.0 (https://www.liquid-technologies.com) -->
 <Holding xsi:noNamespaceSchemaLocation="schema.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <nome>string</nome>
-  <Empresa>
+  <empresas>
     <razaoSocial>string</razaoSocial>
     <fantasia>string</fantasia>
     <logradouro>string</logradouro>
-    <Loja>
+    <lojas>
       <nome>string</nome>
-      <dataAbertura>1982-09-16T05:11:35.30</dataAbertura>
-      <nroFuncionario>-234</nroFuncionario>
-    </Loja>
-  </Empresa>
-  <Empresa>
+      <dataAbertura>1996-04-05T20:15:43.55</dataAbertura>
+      <nroFuncionario>-3074</nroFuncionario>
+    </lojas>
+    <lojas>
+      <nome>string</nome>
+      <dataAbertura>1993-01-14T02:43:05.85</dataAbertura>
+      <nroFuncionario>2127</nroFuncionario>
+    </lojas>
+    <lojas>
+      <nome>string</nome>
+      <dataAbertura>1999-01-12T00:57:08.96</dataAbertura>
+      <nroFuncionario>-277</nroFuncionario>
+    </lojas>
+    <lojas>
+      <nome>string</nome>
+      <dataAbertura>1979-10-06T13:02:37.09</dataAbertura>
+      <nroFuncionario>-4801</nroFuncionario>
+    </lojas>
+    <lojas>
+      <nome>string</nome>
+      <dataAbertura>1970-11-08T18:42:43.51</dataAbertura>
+      <nroFuncionario>-4648</nroFuncionario>
+    </lojas>
+  </empresas>
+  <empresas>
     <razaoSocial>string</razaoSocial>
     <fantasia>string</fantasia>
     <logradouro>string</logradouro>
-    <Loja>
+    <lojas>
       <nome>string</nome>
-      <dataAbertura>1991-01-27T03:57:37.47</dataAbertura>
-      <nroFuncionario>4655</nroFuncionario>
-    </Loja>
-  </Empresa>
+      <dataAbertura>2010-03-03T18:54:57.89</dataAbertura>
+      <nroFuncionario>1744</nroFuncionario>
+    </lojas>
+    <lojas>
+      <nome>string</nome>
+      <dataAbertura>1972-08-09T03:00:02.86</dataAbertura>
+      <nroFuncionario>4140</nroFuncionario>
+    </lojas>
+  </empresas>
 </Holding>
