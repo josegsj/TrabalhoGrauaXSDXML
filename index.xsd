@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-    <xs:element name="Holding">
+  	<xs:element name="Holding">
        <xs:complexType>
             <xs:sequence>
     			<xs:element name="nome" type="xs:string"></xs:element>
@@ -10,6 +10,15 @@
                           <xs:element name="razaoSocial" type="xs:string"></xs:element>
                           <xs:element name="fantasia" type="xs:string"></xs:element>
                           <xs:element name="logradouro" type="xs:string"></xs:element>
+                          <xs:element name="Loja">
+                            <xs:complexType>
+                                  <xs:sequence>
+                                    <xs:element name="nome" type="xs:string"></xs:element>
+                                    <xs:element name="dataAbertura" type="xs:dateTime"></xs:element>
+                                    <xs:element name="nroFuncionario" type="xs:integer"></xs:element>
+                                  </xs:sequence>
+                              </xs:complexType>
+                          </xs:element>
             			</xs:sequence>
                 	</xs:complexType>
                 </xs:element>
