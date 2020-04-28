@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Liquid Technologies Online Tools 1.0 (https://www.liquid-technologies.com) -->
+<Holding xsi:noNamespaceSchemaLocation="schema.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <nome>string</nome>
+  <Empresa>
+    <razaoSocial>string</razaoSocial>
+    <fantasia>string</fantasia>
+    <logradouro>string</logradouro>
+    <Loja>
+      <nome>string</nome>
+      <dataAbertura>1982-09-16T05:11:35.30</dataAbertura>
+      <nroFuncionario>-234</nroFuncionario>
+    </Loja>
+  </Empresa>
+  <Empresa>
+    <razaoSocial>string</razaoSocial>
+    <fantasia>string</fantasia>
+    <logradouro>string</logradouro>
+    <Loja>
+      <nome>string</nome>
+      <dataAbertura>1991-01-27T03:57:37.47</dataAbertura>
+      <nroFuncionario>4655</nroFuncionario>
+    </Loja>
+  </Empresa>
+</Holding>
