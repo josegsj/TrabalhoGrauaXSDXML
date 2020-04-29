@@ -7,27 +7,23 @@
             </xs:sequence>
          </xs:complexType>
   	</xs:element>
-	<xs:element name="Holding">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element name="codigoHolding" type="xs:ID"/>
-				<xs:element name="nome" type="xs:string"/>
-				<xs:element name="empresa" type="Empresa" minOccurs="0" maxOccurs="unbounded"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="EstoqueGradeItem">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element name="gradeItem" type="GradeItem" minOccurs="1" maxOccurs="unbounded"/>
-				<xs:element name="produto" type="Produto" minOccurs="1" maxOccurs="unbounded"/>
-				<xs:element name="loja" type="Loja" minOccurs="1" maxOccurs="unbounded"/>
-				<xs:element name="empresa" type="Empresa" minOccurs="1" maxOccurs="unbounded"/>
-				<xs:element name="estoqueAtual" type="xs:integer"/>
-			<xs:element name="estoqueMinimo" type="xs:integer"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
+  <xs:complexType name="Holding">
+    <xs:sequence>
+      <xs:element name="codigoHolding" type="xs:ID"/>
+      <xs:element name="nome" type="xs:string"/>
+      <xs:element name="empresa" type="Empresa" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="EstoqueGradeItem">
+      <xs:sequence>
+        <xs:element name="gradeItem" type="GradeItem" minOccurs="1" maxOccurs="unbounded"/>
+        <xs:element name="produto" type="Produto" minOccurs="1" maxOccurs="unbounded"/>
+        <xs:element name="loja" type="Loja" minOccurs="1" maxOccurs="unbounded"/>
+        <xs:element name="empresa" type="Empresa" minOccurs="1" maxOccurs="unbounded"/>
+        <xs:element name="estoqueAtual" type="xs:integer"/>
+        <xs:element name="estoqueMinimo" type="xs:integer"/>
+      </xs:sequence>
+  </xs:complexType>
 	<xs:complexType name="Empresa">
 		<xs:sequence>
 			<xs:element name="codigoEmpresa" type="xs:ID"/>
@@ -43,15 +39,7 @@
 			<xs:element name="nome" type="xs:string"/>
 			<xs:element name="dataAbertura" type="xs:dateTime"/>
 			<xs:element name="nroFuncionario" type="xs:integer"/>
-			<xs:element name="LojaDepartamento" type="LojaDepartamento" minOccurs="1" maxOccurs="unbounded"/>
-		</xs:sequence>
-	</xs:complexType>
-	<xs:complexType name="LojaDepartamento">
-		<xs:sequence>
-			<xs:element name="id" type="xs:ID"/>
-			<xs:element name="empresa" type="Empresa" minOccurs="1" maxOccurs="unbounded"/>
 			<xs:element name="departamento" type="Departamento" minOccurs="1" maxOccurs="unbounded"/>
-			<xs:element name="loja" type="Loja" minOccurs="1" maxOccurs="unbounded"/>
 		</xs:sequence>
 	</xs:complexType>
 	<xs:complexType name="Departamento">
