@@ -4,7 +4,7 @@
   <xs:element name="bd2">
     <xs:complexType>
       <xs:sequence>
-        <xs:element name="holding" type="Holding" minOccurs="0" maxOccurs="unbounded"></xs:element>
+        <xs:element name="holding" type="Holding" minOccurs="1" maxOccurs="unbounded"></xs:element>
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -13,7 +13,7 @@
     <xs:sequence>
       <xs:element name="codigoHolding" type="xs:ID" />
       <xs:element name="nome" type="xs:string" />
-      <xs:element name="empresa" type="Empresa" minOccurs="0" maxOccurs="unbounded" />
+      <xs:element name="empresa" type="Empresa" minOccurs="1" maxOccurs="unbounded" />
     </xs:sequence>
   </xs:complexType>
 
@@ -23,7 +23,7 @@
       <xs:element name="razaoSocial" type="xs:string" />
       <xs:element name="fantasia" type="xs:string" />
       <xs:element name="logradouro" type="xs:string" />
-      <xs:element name="loja" type="Loja" minOccurs="0" maxOccurs="unbounded" />
+      <xs:element name="loja" type="Loja" minOccurs="1" maxOccurs="unbounded" />
     </xs:sequence>
   </xs:complexType>
 
@@ -33,8 +33,8 @@
       <xs:element name="nome" type="xs:string" />
       <xs:element name="dataAbertura" type="xs:dateTime" />
       <xs:element name="nroFuncionario" type="xs:integer" />
-      <xs:element name="departamento" type="Departamento" minOccurs="0" maxOccurs="unbounded" />
-      <xs:element name="estoque" type="Estoque" minOccurs="0" maxOccurs="unbounded" />
+      <xs:element name="departamento" type="Departamento" minOccurs="1" maxOccurs="unbounded" />
+      <xs:element name="estoque" type="Estoque" minOccurs="1" maxOccurs="unbounded" />
     </xs:sequence>
   </xs:complexType>
 
@@ -61,13 +61,13 @@
       <xs:element name="produto" type="Produto" minOccurs="1" maxOccurs="unbounded" />
     </xs:sequence>
   </xs:complexType>
-  
+
   <xs:complexType name="Estoque">
     <xs:sequence>
       <xs:element name="codigoEstoque" type="xs:ID" />
       <xs:element name="estoqueAtual" type="xs:integer" />
       <xs:element name="estoqueMinimo" type="xs:integer" />
-      <xs:element name="grade" type="Grade" minOccurs="0" maxOccurs="unbounded" />
+      <xs:element name="grade" type="Grade" minOccurs="1" maxOccurs="unbounded" />
     </xs:sequence>
   </xs:complexType>
 
@@ -75,9 +75,9 @@
     <xs:sequence>
       <xs:element name="codigoGrade" type="xs:ID" />
       <xs:element name="nome" type="xs:string" />
-      <xs:element name="cor" type="Cor" minOccurs="0" maxOccurs="unbounded" />
-      <xs:element name="tamanho" type="Tamanho" minOccurs="0" maxOccurs="unbounded" />
-      <xs:element name="produto" type="Produto" minOccurs="0" maxOccurs="unbounded" />
+      <xs:element name="cor" type="Cor" minOccurs="1" maxOccurs="unbounded" />
+      <xs:element name="tamanho" type="Tamanho" minOccurs="1" maxOccurs="unbounded" />
+      <xs:element name="produto" type="Produto" minOccurs="1" maxOccurs="unbounded" />
     </xs:sequence>
   </xs:complexType>
 
@@ -87,7 +87,6 @@
       <xs:element name="nome" type="xs:string" />
       <xs:element name="estoqueAtual" type="xs:integer" />
       <xs:element name="estoqueMinimo" type="xs:integer" />
-      <xs:element name="grade" type="Grade" />
     </xs:sequence>
   </xs:complexType>
 
