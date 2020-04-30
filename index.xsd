@@ -1,105 +1,100 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
-
-  <xs:element name="bd2">
-    <xs:complexType>
-      <xs:sequence>
-        <xs:element name="holding" type="Holding" minOccurs="1" maxOccurs="unbounded"></xs:element>
-      </xs:sequence>
-    </xs:complexType>
-  </xs:element>
-
-  <xs:complexType name="Holding">
-    <xs:sequence>
-      <xs:element name="codigoHolding" type="xs:ID" />
-      <xs:element name="nome" type="xs:string" />
-      <xs:element name="empresa" type="Empresa" minOccurs="1" maxOccurs="unbounded" />
-    </xs:sequence>
-  </xs:complexType>
-
-  <xs:complexType name="Empresa">
-    <xs:sequence>
-      <xs:element name="codigoEmpresa" type="xs:ID" />
-      <xs:element name="razaoSocial" type="xs:string" />
-      <xs:element name="fantasia" type="xs:string" />
-      <xs:element name="logradouro" type="xs:string" />
-      <xs:element name="loja" type="Loja" minOccurs="1" maxOccurs="unbounded" />
-    </xs:sequence>
-  </xs:complexType>
-
-  <xs:complexType name="Loja">
-    <xs:sequence>
-      <xs:element name="codigoLoja" type="xs:ID" />
-      <xs:element name="nome" type="xs:string" />
-      <xs:element name="dataAbertura" type="xs:dateTime" />
-      <xs:element name="nroFuncionario" type="xs:integer" />
-      <xs:element name="departamento" type="Departamento" minOccurs="1" maxOccurs="unbounded" />
-    </xs:sequence>
-  </xs:complexType>
-
-  <xs:complexType name="Departamento">
-    <xs:sequence>
-      <xs:element name="codigoDepartamento" type="xs:ID" />
-      <xs:element name="nome" type="xs:string" />
-      <xs:element name="secao" type="Secao" minOccurs="1" maxOccurs="unbounded" />
-    </xs:sequence>
-  </xs:complexType>
-
-  <xs:complexType name="Secao">
-    <xs:sequence>
-      <xs:element name="codigoSecao" type="xs:ID" />
-      <xs:element name="nome" type="xs:string" />
-      <xs:element name="estoque" type="Estoque" minOccurs="1" maxOccurs="unbounded" />
-    </xs:sequence>
-  </xs:complexType>
-  <xs:complexType name="Estoque">
-    <xs:sequence>
-      <xs:element name="codigoEstoque" type="xs:ID" />
-      <xs:element name="estoqueAtual" type="xs:integer" />
-      <xs:element name="estoqueMinimo" type="xs:integer" />
-      <xs:element name="categoria" type="Categoria" minOccurs="1" maxOccurs="unbounded" />
-    </xs:sequence>
-  </xs:complexType>
-  <xs:complexType name="Categoria">
-    <xs:sequence>
-      <xs:element name="codigoCategoria" type="xs:ID" />
-      <xs:element name="nome" type="xs:string" />
-      <xs:element name="produto" type="Produto" minOccurs="1" maxOccurs="unbounded" />
-    </xs:sequence>
-  </xs:complexType>
-
-    <xs:complexType name="Produto">
-    <xs:sequence>
-      <xs:element name="codigoProduto" type="xs:ID" />
-      <xs:element name="nome" type="xs:string" />
-      <xs:element name="grade" type="Grade" minOccurs="1" maxOccurs="unbounded" />
-      <xs:element name="estoqueAtual" type="xs:integer" />
-      <xs:element name="estoqueMinimo" type="xs:integer" />
-    </xs:sequence>
-  </xs:complexType>
-
-
-  <xs:complexType name="Grade">
-    <xs:sequence>
-      <xs:element name="codigoGrade" type="xs:ID" />
-      <xs:element name="nome" type="xs:string" />
-      <xs:element name="cor" type="Cor" minOccurs="1" maxOccurs="unbounded" />
-      <xs:element name="tamanho" type="Tamanho" minOccurs="1" maxOccurs="unbounded" />
-    </xs:sequence>
-  </xs:complexType>
-
-
-  <xs:complexType name="Cor">
-    <xs:sequence>
-      <xs:element name="codigoCor" type="xs:ID" />
-      <xs:element name="nome" type="xs:string" />
-    </xs:sequence>
-  </xs:complexType>
-
-  <xs:complexType name="Tamanho">
-    <xs:sequence>
-      <xs:element name="codigoTamanho" type="xs:ID" />
-      <xs:element name="nome" type="xs:string" />
-    </xs:sequence>
-  </xs:complexType>
+	<xs:element name="bd2">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="holding" type="Holding" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="Holding">
+		<xs:sequence>
+			<xs:element name="codigoHolding" type="xs:ID"/>
+			<xs:element name="nome" type="xs:string"/>
+			<xs:element name="empresa" type="Empresa" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Empresa">
+		<xs:sequence>
+			<xs:element name="codigoEmpresa" type="xs:ID"/>
+			<xs:element name="razaoSocial" type="xs:string"/>
+			<xs:element name="fantasia" type="xs:string"/>
+			<xs:element name="logradouro" type="xs:string"/>
+			<xs:element name="loja" type="Loja" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Loja">
+		<xs:sequence>
+			<xs:element name="codigoLoja" type="xs:ID"/>
+			<xs:element name="nome" type="xs:string"/>
+			<xs:element name="dataAbertura" type="xs:dateTime"/>
+			<xs:element name="nroFuncionario" type="xs:integer"/>
+			<xs:element name="departamento" type="Departamento" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Departamento">
+		<xs:sequence>
+			<xs:element name="codigoDepartamento" type="xs:ID"/>
+			<xs:element name="nome" type="xs:string"/>
+			<xs:element name="secao" type="Secao" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Secao">
+		<xs:sequence>
+			<xs:element name="codigoSecao" type="xs:ID"/>
+			<xs:element name="nome" type="xs:string"/>
+			<xs:element name="estoque" type="Estoque" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Estoque">
+		<xs:sequence>
+			<xs:element name="codigoEstoque" type="xs:ID"/>
+			<xs:element name="estoqueAtual" type="xs:integer"/>
+			<xs:element name="estoqueMinimo" type="xs:integer"/>
+			<xs:element name="categoria" type="Categoria" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Categoria">
+		<xs:sequence>
+			<xs:element name="codigoCategoria" type="xs:ID"/>
+			<xs:element name="nome" type="xs:string"/>
+			<xs:element name="grade" type="Grade" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Grade">
+		<xs:sequence>
+			<xs:element name="codigoGrade" type="xs:ID"/>
+			<xs:element name="nome" type="xs:string"/>
+			<xs:element name="produto" type="Produto" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Produto">
+		<xs:sequence>
+			<xs:element name="codigoProduto" type="xs:ID"/>
+			<xs:element name="nome" type="xs:string"/>
+			<xs:element name="estoqueAtual" type="xs:integer"/>
+			<xs:element name="estoqueMinimo" type="xs:integer"/>
+			<xs:element name="Item" type="Item" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Item">
+		<xs:sequence>
+			<xs:element name="codigoItem" type="xs:ID"/>
+			<xs:element name="nome" type="xs:string"/>
+			<xs:element name="cor" type="Cor" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="tamanho" type="Tamanho" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Cor">
+		<xs:sequence>
+			<xs:element name="codigoCor" type="xs:ID"/>
+			<xs:element name="nome" type="xs:string"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Tamanho">
+		<xs:sequence>
+			<xs:element name="codigoTamanho" type="xs:ID"/>
+			<xs:element name="nome" type="xs:string"/>
+		</xs:sequence>
+	</xs:complexType>
 </xs:schema>
